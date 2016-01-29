@@ -1,0 +1,48 @@
+{
+  "name": "geoext3-ws",
+  "version": "0.0.1",
+  "description": "[WIP] Learn how to use GeoExt 3 in your ExtJS applications…",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf src/_book build",
+    "start": "mkdir -p src/_book && npm run doc:serve",
+    "test": "npm run build:html",
+
+    "check:calibre": "(which calibre > /dev/null 2>&1) || (echo 'calibre not installed' && false)",
+    "check:zip": "(which zip > /dev/null 2>&1) || (echo 'zip not installed' && false)",
+
+    "doc:help": "gitbook help",
+    "doc:serve": "gitbook serve src",
+    "doc:init": "gitbook init src",
+    "doc:build": "gitbook build src build/geoext3-ws",
+    "doc:epub": "npm run check:calibre && gitbook epub src build/geoext3-ws.epub",
+    "doc:pdf": "npm run check:calibre && gitbook pdf src build/geoext3-ws.pdf",
+
+    "build:html": "npm run clean && npm run doc:build",
+    "build:all": "npm run build:html && npm run doc:pdf && npm run doc:epub",
+
+    "archive": "npm run check:zip && npm run build:all && cd build && zip -r geoext3-ws.zip geoext3-ws *.epub *.pdf",
+
+    "postinstall": "gitbook install src"
+  },
+  "repository": {
+    "treype": "git",
+    "url": "git+https://github.com/geoext/geoext3-ws.git"
+  },
+  "keywords": [
+    "extjs",
+    "openlayers",
+    "workshop",
+    "introduction",
+    "beginner"
+  ],
+  "author": "GeoExt Contributors",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/geoext/geoext3-ws/issues"
+  },
+  "homepage": "https://github.com/geoext/geoext3-ws#readme",
+  "devDependencies": {
+    "gitbook-cli": "0.3.6"
+  }
+}
