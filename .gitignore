@@ -1,4 +1,5 @@
 node_modules
 build
 
-src/_book/
+src/_book
+src/node_modules
