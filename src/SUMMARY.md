@@ -1,11 +1,11 @@
 # Summary
 
-* [Introduction](intro/intro.md)
-  * [About](intro/about.md)
-  * [Target audience](intro/target-audience.md)
-  * [Goals](introduction/goals.md)
-  * [Development environment](introduction/development-environment.md)
-  * [Notes](introduction/notes.md) why no sencha cmd / why no package
+* [Metainformation](meta/intro.md)
+  * [About](meta/about.md)
+  * [Target audience](meta/target-audience.md)
+  * [Goals](meta/goals.md)
+  * [Development environment](meta/development-environment.md)
+  * [Notes](meta/notes.md)
 * [First steps](first-steps/intro.md)
   * [Hello OpenLayers](first-steps/hello-openlayers.md)
   * [Hello ExtJS](first-steps/hello-extjs.md)
