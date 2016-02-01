@@ -21,8 +21,11 @@
     "build:html": "npm run clean && npm run doc:build",
     "build:all": "npm run build:html && npm run doc:pdf && npm run doc:epub",
 
-    "archive": "npm run check:zip && npm run build:all && cd build && zip -r geoext3-ws.zip geoext3-ws *.epub *.pdf",
+    "build:covers": "npm run build:cover && npm run build:cover_small",
+    "build:cover": "svgexport src/cover.svg src/cover.jpg 95% 'svg{background: #fff;}'",
+    "build:cover_small": "svgexport src/cover_small.svg src/cover_small.jpg 100% 'svg{background: #fff;}'",
 
+    "archive": "npm run check:zip && npm run build:all && cd build && zip -r geoext3-ws.zip geoext3-ws *.epub *.pdf",
     "postinstall": "gitbook install src"
   },
   "repository": {
@@ -43,6 +46,7 @@
   },
   "homepage": "https://github.com/geoext/geoext3-ws#readme",
   "devDependencies": {
-    "gitbook-cli": "0.3.6"
+    "gitbook-cli": "0.3.6",
+    "svgexport": "0.2.8"
   }
 }

@@ -2,5 +2,7 @@
     "title": "Workshop GeoExt3",
     "description": "[WIP] Learn how to use GeoExt 3 in your ExtJS applications…",
     "language": "en",
-    "plugins": ["image-captions"]
+    "plugins": [
+        "image-captions"
+    ]
 }
