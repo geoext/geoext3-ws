@@ -1,7 +1,7 @@
 {
   "name": "geoext3-ws",
   "version": "0.0.1",
-  "description": "[WIP] Learn how to use GeoExt 3 in your ExtJS applications…",
+  "description": "[WIP] Learn how to use GeoExt3 in your ExtJS applications…",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf src/_book build",
