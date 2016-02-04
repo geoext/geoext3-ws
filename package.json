@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf src/_book build",
-    "start": "mkdirp src/_book && npm run doc:serve",
+    "start": "mkdirp src/_book && parallelshell \"node scripts/sync-exercises.js\" \"npm run doc:serve\"",
     "test": "npm run build:html",
     "check:calibre": "(which calibre > /dev/null 2>&1) || (echo 'calibre not installed' && false)",
     "check:zip": "(which zip > /dev/null 2>&1) || (echo 'zip not installed' && false)",
@@ -44,9 +44,13 @@
     "svgexport": "0.2.8"
   },
   "dependencies": {
+    "fs-extra": "0.26.5",
     "gitbook-cli": "0.3.6",
     "mkdirp": "0.5.1",
+    "parallelshell": "2.0.0",
+    "readline": "1.3.0",
     "rimraf": "2.5.1",
+    "watch": "0.17.1",
     "which": "1.2.4"
   }
 }

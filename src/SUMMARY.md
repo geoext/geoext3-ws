@@ -7,6 +7,7 @@
   * [Development environment](meta/development-environment.md)
   * [Notes](meta/notes.md)
 * [First steps](first-steps/intro.md)
+  * [Hello exercise](first-steps/hello-exercise.md)
   * [Hello OpenLayers](first-steps/hello-openlayers.md)
   * [Hello ExtJS](first-steps/hello-extjs.md)
   * [Hello GeoExt](first-steps/hello-geoext.md)
