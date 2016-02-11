@@ -3,6 +3,36 @@
     "description": "[WIP] Learn how to use GeoExt 3 in your ExtJS applications…",
     "language": "en",
     "plugins": [
-        "image-captions"
-    ]
+        "github-buttons",
+        "edit-link",
+        "image-captions",
+        "include-codeblock",
+        "richquotes"
+    ],
+    "variables": {
+        "exerciseUrl": "http://localhost:4000/exercises"
+    },
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/geoext/geoext3-ws/edit/master/",
+            "label": "Edit…"
+        },
+        "github-buttons": {
+            "repo": "geoext/geoext3-ws",
+            "types": [
+                "fork",
+                "watch"
+            ]
+        },
+        "richquotes": {
+            "task": {
+                "alert": "info",
+                "picto": "fa-file-code-o"
+            },
+            "exercise": {
+                "alert": "info",
+                "picto": "fa-file-code-o"
+            }
+        }
+    }
 }
