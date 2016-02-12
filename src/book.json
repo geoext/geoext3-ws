@@ -14,13 +14,15 @@
     },
     "pluginsConfig": {
         "edit-link": {
-            "base": "https://github.com/geoext/geoext3-ws/edit/master/",
+            "base": "https://github.com/geoext/geoext3-ws/edit/master/src",
             "label": "Edit…"
         },
         "github-buttons": {
             "repo": "geoext/geoext3-ws",
+            "size": "small",
             "types": [
                 "fork",
+                "star",
                 "watch"
             ]
         },

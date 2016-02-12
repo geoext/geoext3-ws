@@ -8,4 +8,4 @@ This chapter gently introduced you to OpenLayers, ExtJS and GeoExt. You have lea
 * … how to include the resources of GeoExt
 * … where to find more information online
 
-The [next chapter](../map-component/intro.md) wil focus on the `GeoExt.component.Map` which we have briefly seen in the first example we created.
+The [next chapter](../map-component/intro.md) will focus on the `GeoExt.component.Map` which we have briefly seen in the first example we created.
