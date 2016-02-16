@@ -31,4 +31,3 @@
   * [Popup](other/popups.md)
   * [Overview map](other/overview-map.md)
   * [Other](other/other.md)
-  * [Summary](other/summary.md)

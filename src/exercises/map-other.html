@@ -6,8 +6,19 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-triton/resources/theme-triton-all.css" type="text/css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js" type="text/javascript"></script>
         <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css">
+        <link rel="stylesheet" href="http://geoext.github.io/geoext3/master/resources/css/gx-popup.css" type="text/css">
         <script src="./lib/ol/ol.js" type="text/javascript"></script>
         <script src="https://geoext.github.io/geoext3/master/GeoExt.js" type="text/javascript"></script>
+        <style>
+.gx-popup p {
+    padding: 5px 5px 0 5px;
+    border-radius: 7px;
+    background-color: rgba(255,255,255,0.85);
+    border: 3px solid white;
+    margin: 0;
+    text-align: center;
+}
+        </style>
     </head>
     <body>
         <script>
@@ -80,8 +91,30 @@ Ext.onReady(function(){
     // Create an instance of the GeoExt map component with that map:
     var mapComponent = Ext.create('GeoExt.component.Map', {
         map: map,
-        region: 'center'
+        region: 'center',
+        pointerRest: true,
+        pointerRestInterval: 750,
+        pointerRestPixelTolerance: 5
     });
+
+    var popup = Ext.create('GeoExt.component.Popup', {
+        map: map,
+        width: 200
+    });
+
+    // Add a pointerrest handler to the map component to render the popup.
+    mapComponent.on('pointerrest', function(evt) {
+        var coordinate = evt.coordinate;
+        var lonlat = ol.proj.transform(coordinate, 'EPSG:3857', 'EPSG:4326')
+        var hdms = ol.coordinate.toStringHDMS(lonlat);
+        // set content and position popup
+        popup.setHtml('<p>' + hdms + '</p>');
+        popup.position(coordinate);
+        popup.show();
+    });
+
+    // hide the popup once it isn't on the map any longer
+    mapComponent.on('pointerrestout', popup.hide, popup);
 
     var treeStore = Ext.create('GeoExt.data.store.LayersTree', {
         layerGroup: map.getLayerGroup()
@@ -90,7 +123,7 @@ Ext.onReady(function(){
     var layerTreePanel = Ext.create('Ext.tree.Panel', {
         title: 'Layers of the application',
         width: 300,
-        region: 'west',
+        flex: 1,
         store: treeStore,
         rootVisible: false,
         viewConfig: {
@@ -129,6 +162,30 @@ Ext.onReady(function(){
         height: 300
     });
 
+    var overview = Ext.create('GeoExt.component.OverviewMap', {
+        parentMap: map,
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.TileWMS({
+                    url: 'http://ows.terrestris.de/osm-gray/service',
+                    params: {
+                        layers: 'OSM-WMS'
+                    }
+                }),
+                opacity: 0.8
+            })
+        ]
+    });
+
+    var overviewPanel = Ext.create('Ext.panel.Panel', {
+        title: 'Overview',
+        layout: 'fit',
+        items: overview,
+        height: 300,
+        width: 300,
+        collapsible: true
+    });
+
     // 3) Ext JS
     //
     // Create a viewport
@@ -136,7 +193,16 @@ Ext.onReady(function(){
         layout: 'border',
         items: [
             mapComponent,
-            layerTreePanel,
+            {
+                xtype: 'container',
+                region: 'west',
+                layout: 'vbox',
+                collapsible: true,
+                items: [
+                    overviewPanel,
+                    layerTreePanel
+                ]
+            },
             featureGrid
         ]
     });
