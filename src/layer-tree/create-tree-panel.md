@@ -43,7 +43,7 @@ Ext.create('Ext.tree.Panel', {
 
 * Some hints (in case you have trouble getting it to work)
 
-  * The store -- as complicated as it looks at first -- can be left as is, you don't need to change something here.
+  * The store &mdash; as complicated as it looks at first &mdash; can be left as is, you don't need to change something here.
   * The return value of the `Ext.create('Ext.tree.Panel', /**/)` call is currently ignored. You should try to save it in a variable (probably the one from our basic setup `layerTreePanel`).
   * The height of the tree-panel is unnecessary, we want to put the panel in the west region, which has full height by default. Remove the `height`-property.
   * The `renderTo`-configuration of the tree-panel is also fine for the ExtJS standalone example, but bad for our combination setup. In our case, the viewport takes care of where to actually render the tree. Remove the `renderTo`-property.
