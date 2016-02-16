@@ -1,6 +1,6 @@
 # GeoExt3 workshop [![Build Status](https://travis-ci.org/geoext/geoext3-ws.svg?branch=master)](https://travis-ci.org/geoext/geoext3-ws)
 
-[WIP] Learn how to use GeoExt 3 in your ExtJS applications…
+Learn how to use GeoExt 3 in your ExtJS applications…
 
 ## Developing instructions
 
