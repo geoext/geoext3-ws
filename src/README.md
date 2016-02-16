@@ -19,7 +19,5 @@ order.
   [layer tree](layer-tree/intro.md)
 * The next chapter is all about [vector features](feature-grid/intro.md),
   you'll create a grid that is synced with a vector layer in the map
-* In order to display information about a spatial location, the
-  [popups](popups/intro.md) of GeoExt can be used.
 * The last chapter shows [other aspects](other/intro.md) of GeoExt components
-  like an embeddable overview map, the utility classes to talk to MapFish print servers and other parts of GeoExt.
+  like popups, an embeddable overview map, the utility classes to talk to MapFish print servers and other parts of GeoExt.
