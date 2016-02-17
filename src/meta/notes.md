@@ -18,4 +18,4 @@ TODO check if we need this
 
 We use the `sencha` tool quite often in our daily work, but found that the
 additional burden of installation steps would be distracting for the main
-focus of this workshop
+focus of this workshop.

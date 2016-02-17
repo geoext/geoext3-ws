@@ -1,9 +1,9 @@
 # Metainformation
 
-In this chapter we'll provide you with some metainformation of this workshop.
+In this chapter we'll provide you with some metainformation about this workshop.
 
 In order to efficiently work through the workshop, you are advised to read
-through the following parts:
+the following parts:
 
 * [General information](about.md) about the workshop
 * The [target audience](target-audience.md) of the workshop

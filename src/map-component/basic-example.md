@@ -4,9 +4,8 @@ We want to have a look at a fully working example first.
 
 ## Exercises
 
-* Create a new file `map.html` in the `src/exercise`-directory
-* Paste the following html-code into the file you have just created
-
+* Create a new file `map.html` in the `src/exercise`-directory.
+* Paste the following html-code into the file you have just created:
 ```html
 <!DOCTYPE html>
 <html>
@@ -62,4 +61,4 @@ Ext.onReady(function(){
 
 ![A map component in a fullscreen viewport](map.png)
 
-We will now [dissect the example](dissecting-example.md) and explain what part does.
+We will now [dissect the example](dissecting-example.md) and explain what each part does.

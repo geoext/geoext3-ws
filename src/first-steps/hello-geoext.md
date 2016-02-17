@@ -52,28 +52,28 @@ We'll start with the result of the last exercise, which was a basic HTML file th
 
 * We are now going to create an instance of `GeoExt.component.Map` and render it in the window we created in the previous example.
 * In order to do that:
-  * remove the `html: '…is easy!'` from the `Ext.window.Window` configuration object
-  * instead add the following lines:
-```
-   // in the config object:
-   layout: 'fit',
-   items: [
-     Ext.create('GeoExt.component.Map', {
-       map: new ol.Map({
-         target: 'map',
-         layers: [
-           new ol.layer.Tile({
-             source: new ol.source.OSM()
-           })
-         ],
-         view: new ol.View({
-           center: ol.proj.fromLonLat([106.92, 47.92]),
-           zoom: 4
-         })
-       })
-     })
-   ]
-```
+  * Remove the `html: '…is easy!'` from the `Ext.window.Window` configuration object
+  * And add the following lines instead:
+    ```javascript
+    // in the config object:
+    layout: 'fit',
+    items: [
+        Ext.create('GeoExt.component.Map', {
+            map: new ol.Map({
+                target: 'map',
+                layers: [
+                    new ol.layer.Tile({
+                        source: new ol.source.OSM()
+                    })
+                ],
+                view: new ol.View({
+                    center: ol.proj.fromLonLat([106.92, 47.92]),
+                    zoom: 4
+                })
+            })
+        })
+    ]
+   ```
 * Next: Please change the title of the window and make is slightly bigger.
 
 If your example looks like the one below, everything is set up correctly!

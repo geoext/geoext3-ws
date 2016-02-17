@@ -97,6 +97,6 @@ var vp = Ext.create('Ext.container.Viewport', {
 });
 ```
 
-* Your application should now look like the following
+* Your application should now look like the following:
 
 ![Our placeholder panel in the viewport](prepared.png)

@@ -2,7 +2,7 @@
 
 Before we can learn how to use GeoExt, we need to see if we can use ExtJS in our page.
 
-We'll again need to include two resources in a HTML page to be able to use ExtJS: And again it is a CSS and a JavaScript file.
+Again we'll need to include two resources in a HTML page to be able to use ExtJS: And again it is a CSS and a JavaScript file.
 
 ## Exercises
 
@@ -21,7 +21,7 @@ We'll again need to include two resources in a HTML page to be able to use ExtJS
 
 ![The template-HTML with the ExtJS resources included](hello-ext.png)
 
-* In rder to see if everything was included successfully, let's instatiate an ExtJS class. Please copy and paste the following into the `<body>` of the test-file:
+* In order to see if everything was included successfully, let's instantiate an ExtJS class. Please copy and paste the following into the `<body>` of the test-file:
 
 ```html
 <script>

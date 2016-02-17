@@ -4,7 +4,7 @@ Now it's time to change the grid to no longer show static data from [The Simpson
 
 ## Exercises
 
-* Please setup `src/map.html` to contain the following lines:
+* Please set up `src/map.html` to contain the following lines:
 
 ```html
 <!DOCTYPE html>
@@ -130,9 +130,9 @@ Ext.onReady(function(){
 </html>
 ```
 
-* Instead of a generic `Ext.data.Store`, use a `GeoExt.data.store.Features`. Look up the API documentation on http://geoext.github.io/geoext3/master/docs
+* Instead of a generic `Ext.data.Store`, use a `GeoExt.data.store.Features`. Look up the API documentation on http://geoext.github.io/geoext3/master/docs for further details.
 
-* Make sure that you reference your vector layer and the map to work on when configuring the store.
+* Make sure you reference your vector layer and the map to work on when configuring the store.
 
 * <button class="section" target="hint1" show="Show hint" hide="Hide hint"></button>
 
@@ -168,7 +168,7 @@ columns: [
 
 * When a row is selected in the grid, it is visually highlighted. Wouldn't it be nice if the feature on the map would also have a different style once its associated row is selected?
 
-* Assign a `selectionchange` listener on the grid and ensure that the correct feature is highlighted in the map. Hint: Create a new style, and in the callback reset the style for every feature and reassign the new style to the to the currently selected feature. Use `console.log(arguments)` to see what you have been passed and how you can get the feature from the passed arguments.
+* Assign a `selectionchange` listener on the grid and ensure that the correct feature is highlighted in the map. Hint: Create a new style and in the callback reset the style for every feature and reassign the new style to the to the currently selected feature. Use `console.log(arguments)` to see what you have been passed and how you can get the feature from the passed arguments.
 
 * **Bonus:** Once the feature has a different style on the map, it would be nice if we could see that style in the grid, right? Change the `selectionchange` listener to also update the grid once the style of the feature has changed.
 

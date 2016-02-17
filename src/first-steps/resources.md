@@ -14,7 +14,7 @@ Use th API docs of OpenLayers to know about available classes and their properti
 
 The left side of the API-docs is a list of all objects in OpenLayers. If you click on the name of an OpenLayers class there, you see the API of the object.
 
-In the subpages you can find a list of all properties, methods and events the class provides. You should make yourself familiar with how to navigate tha API docs.
+In the subpages you can find a list of all properties, methods and events the class provides. You should make yourself familiar with how to navigate the API docs.
 
 ### Examples
 
@@ -30,7 +30,7 @@ Browse the examples and learn how to find one that provides the information you 
 
 * Common problems that may arise when using OpenLayers 3 are explained in the [Frequently Asked Questions (FAQ)](http://openlayers.org/en/v3.13.1/doc/faq.html).
 
-* For specific questions one can ask on [stackoverflow using the tag 'openlayers-3'](http://stackoverflow.com/questions/tagged/openlayers-3)
+* For specific questions one can ask on [stackoverflow using the tag 'openlayers-3'](http://stackoverflow.com/questions/tagged/openlayers-3).
 
 ## ExtJS
 
@@ -48,7 +48,7 @@ The examples for the ExtJS framework can be found here:
 
 * http://examples.sencha.com/extjs/6.0.0/examples/
 
-As with the API documentation, you may at first be overwhelmed at the sheer masses of examples. It is nonetheless very usefull to click through some of them, as the show how to combine the classes of the framework into small working applications.
+As with the API documentation, you may at first be overwhelmed at the sheer masses of examples. It is nonetheless very useful to click through some of them, as the show how to combine the classes of the framework into small working applications.
 
 ### Other
 
@@ -62,7 +62,7 @@ Homepage: https://geoext.github.io/geoext3/
 
 ### API documentation
 
-The GeoExt API documentation (generated woith the same software as the ExtJS one) can be found here:
+The GeoExt API documentation (generated with the same software as the ExtJS one) can be found here:
 
 * http://geoext.github.io/geoext3/master/docs/
 
