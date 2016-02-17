@@ -16,8 +16,8 @@ order.
 * Now that we know these libraries and frameworks, we are ready to use the
   `GeoExt.component.Map` in the [map](map-component/intro.md) chapter.
 * Your map may very well contain a lot of layers, these can be managed with a
-  [layer tree](layer-tree/intro.md)
+  [layer tree](layer-tree/intro.md).
 * The next chapter is all about [vector features](feature-grid/intro.md),
-  you'll create a grid that is synced with a vector layer in the map
+  you'll create a grid that is synced with a vector layer in the map.
 * The last chapter shows [other aspects](other/intro.md) of GeoExt components
   like popups, an embeddable overview map, the utility classes to talk to MapFish print servers and other parts of GeoExt.

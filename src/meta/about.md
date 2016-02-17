@@ -9,15 +9,15 @@ This workshop was created by the following individuals:
 
 ## Contribute
 
-The workshop repository can be found at https://github.com/geoext/geoext3-ws
+The workshop repository can be found at https://github.com/geoext/geoext3-ws.
 
 We look forward to external contributors. If you found an issue or have an idea
 of how to improve the workshop, just
-[open an issue](https://github.com/geoext/geoext3-ws/issues) here
+[open an issue](https://github.com/geoext/geoext3-ws/issues) here.
 
 ## Used libraries
 
-During the workshop you will work with the following JavaScript libaries or
+During the workshop you will work with the following JavaScript libraries or
 frameworks:
 
 * OpenLayers (v3.13.0): http://openlayers.org/

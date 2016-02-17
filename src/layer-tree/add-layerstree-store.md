@@ -1,13 +1,13 @@
 # Assign LayersTree store
 
-Instead of the hardcoded hierarchical list of things in the tree, we now want to link the tree with pour map.
+Instead of the hard-coded hierarchical list of things in the tree, we now want to link the tree with our map.
 
-In order to do this, we need to change the store that is used for the tree. Instead of the all-purpose `Ext.data.TreeStore`, we'll use the special Geoext class `GeoExt.data.store.LayersTree`
+In order to do this, we need to change the store that is used for the tree. Instead of the all-purpose `Ext.data.TreeStore`, we'll use the special GeoExt class `GeoExt.data.store.LayersTree`
 
 
 ## Exercises
 
-* If you haven't already, set up a file called `map.html` in the `src/exercises` directory and paste the following contents:
+* If you haven't done already, set up a file called `map.html` in the `src/exercises` directory and paste the following contents:
 
 ```html
 <!DOCTYPE html>
@@ -86,7 +86,7 @@ Ext.onReady(function(){
 </html>
 ```
 
-* Make your self familiar with the `GeoExt.data.store.LayersTree` class by studying the following API-docs: http://geoext.github.io/geoext3/master/docs/#!/api/GeoExt.data.store.LayersTree
+* Make yourself familiar with the `GeoExt.data.store.LayersTree` class by studying the following API-docs: http://geoext.github.io/geoext3/master/docs/#!/api/GeoExt.data.store.LayersTree
 
 * Create an instance of the `GeoExt.data.store.LayersTree` class and pass it the following configuration object:
 
@@ -98,13 +98,13 @@ Ext.onReady(function(){
 
 * Study the API docs of `ol.Map` to get the appropriate `LayerGroup`: http://openlayers.org/en/v3.13.1/apidoc/ol.Map.html
 
-* If everything works, you should see a tree with one (currently unlabeled) leaf. Next to the leaf you find a checkbox, that reflects the overall visibility of the layer.
+* If everything works fine, you should see a tree with one (currently unlabeled) leaf. Next to the leaf you find a checkbox, that reflects the overall visibility of the layer.
 
 ![The working but currently unlabeled tree](unlabeled.png)
 
 * Study the `GeoExt.data.store.LayersTree` and find out why there is no label next to the tree-element.
 
-* Add more layers to the map and see if they all appear in the map and in the tree. Take e.g. the follwing WMS:
+* Add more layers to the map and see if they all appear in the map and in the tree. Take e.g. the following WMS:
 
 ```
 url: http://ows.terrestris.de/osm/service

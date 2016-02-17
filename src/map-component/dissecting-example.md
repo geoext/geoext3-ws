@@ -87,7 +87,7 @@ The first line in the example reads:
 var map;
 ```
 
-This creates a global variable named map, which (at this point) has the value `undefined`. We will later store our instance of the `ol.Map` in that variable. We have made it global to allow for easier debugging (e.g. in the developer tools of your browser). For the workshop it is OK to create a lot of global variables for stuff you want to examine later on; in production sites it [usually frowned upon](http://programmers.stackexchange.com/a/277283).
+This creates a global variable named map, which (at this point) has the value `undefined`. Later on we will store our instance of the `ol.Map` in that variable. We have made it global to allow for easier debugging (e.g. in the developer tools of your browser). For the workshop it is OK to create a lot of global variables for stuff you want to examine later on; in production sites it [usually frowned upon](http://programmers.stackexchange.com/a/277283).
 
 ### Passing a function to `Ext.onReady`
 
@@ -101,9 +101,9 @@ Ext.onReady(function(){
 
 These lines pass an anonymous (e.g. unnamed) function to the method `Ext.onReady`. This method will execute the passed function as soon as the Document is ready, e.g. External resources have loaded and the DOM (Document Object Model) of the page is ready to be manipulated.
 
-behind the curtains, when we create instances of Some Ext classes, they will eventually need to modify the DOM. In order to run into problems when such changes happen to early (remember, all code in the `<script>` tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
+Behind the curtains, when we create instances of some Ext classes, they will eventually need to modify the DOM. In order to run into problems when such changes happen to early (remember, all code in the `<script>` tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
 
-Let's have a look now at the parts inside this function.
+Let's have a look at the parts inside this function.
 
 ### Creating an `ol.Map`
 
@@ -123,7 +123,7 @@ map = new ol.Map({
 });
 ```
 
-These lines create an OpenLayers map, and configure it with a view that is centered on Ulan Bator and that has one layer showing pre-rendered tiles from the [OpenStreetMap project](http://www.openstreetmap.org/).
+These lines create an OpenLayers map and configure it with a view that is centered on Ulan Bator and that has one layer showing pre-rendered tiles from the [OpenStreetMap project](http://www.openstreetmap.org/).
 
 You should already be slightly familiar with OpenLayers and can basically use any map that works without GeoExt.
 
@@ -147,7 +147,7 @@ After these lines have executed, we now have two variables, one holding the plai
 
 ### Creating a `Ext.Viewport`
 
-The final for lines in the block read:
+The final four lines in the block read:
 
 ```js
 var vp = Ext.create('Ext.container.Viewport', {
@@ -156,7 +156,7 @@ var vp = Ext.create('Ext.container.Viewport', {
 });
 ```
 
-Here again we use `Ext.create` to build an instance of a class, this time of the `Ext.container.Viewport` class. From the ExtJS API docs:
+Again we use `Ext.create` to build an instance of a class, this time of the `Ext.container.Viewport` class. From the ExtJS API docs:
 
 > A specialized container representing the viewable application area (the browser viewport).
 >

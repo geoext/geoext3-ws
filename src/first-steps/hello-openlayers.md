@@ -1,6 +1,6 @@
 # Hello OpenLayers
 
-Ok, we can create and edit HTML-files, and we can see the changes in our browser because all files in `src/exercises/` are always avalaible under {{ book.exerciseUrl }}.
+Ok, we can create and edit HTML-files, and we can see the changes in our browser because all files in `src/exercises/` are always available under {{ book.exerciseUrl }}.
 
 Let's see how we can include OpenLayers in our page so that we can start to use it. In order to do so, we need to include a CSS and a JavaScript file.
 
@@ -25,7 +25,7 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 
 ![A very basic OpenLayers maa](hello-ol.png)
 
-* To verify we are really looking at Ulan Bator, just change the layers to now consist of an OpenStreetmap layer, which e.g. has labels and a country outline. Use the following JavaScript snippet at the appropriate place:
+* To verify we are really looking at Ulan Bator, just change the layers to now consist an OpenStreetMap layer, which e.g. has labels and a country outline. Use the following JavaScript snippet at the appropriate place:
 
 ```js
 new ol.layer.Tile({

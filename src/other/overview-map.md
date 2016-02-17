@@ -1,10 +1,10 @@
 # Overview map
 
-Especially when zoomed in, it can be hard to understand the extent of the mappanel. Overview-maps, which show the extent of the main map on a more zoomed out version of the map can be very useful then. GeoExt comes with a useful component to create overviews: `GeoExt.component.OverviewMap`.
+Especially when zoomed in, it can be hard to understand the extent of the mappanel. Overview-maps, which show the extent of the main map on a smaller scale can be very useful then. GeoExt comes with a useful component to create overviews: `GeoExt.component.OverviewMap`.
 
 ## Exercises
 
-* We'll again start with the code of `map.html` from the previous sections. It's already some lines long:
+* We'll start again with the code of `map.html` from the previous sections. It's already some lines long:
 
 ```html
 <!DOCTYPE html>
@@ -228,11 +228,11 @@ var vp = Ext.create('Ext.container.Viewport', {
 });
 ```
 
-* If we now specify `flex: 1` for the `layerTreePanel` (the `region`-property is no longer needed), your application should look like this:
+* If we specify `flex: 1` for the `layerTreePanel` (the `region`-property is no longer needed), your application should look like this:
 
 ![The prepared layout](overview-prepared.png)
 
-* Now it is time to use `GeoExt.component.OverviewMap`: Create an instance of this class and read the [related API-docs](http://geoext.github.io/geoext3/master/docs/#!/api/GeoExt.component.OverviewMap). Store the overviewmap in the
+* Now it is time to use `GeoExt.component.OverviewMap`: Create an instance of this class and read the [related API-docs](http://geoext.github.io/geoext3/master/docs/#!/api/GeoExt.component.OverviewMap).
 
 * Configure the `overviewPanel` with the created overview instead of `html: 'TODO'` (via `items`).
 

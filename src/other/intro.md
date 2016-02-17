@@ -4,6 +4,6 @@ GeoExt has some more components and classes that we didn't touch so far. This ch
 
 We will enhance our current application with two concrete usages of GeoExt functionality: an embedded overview-map and popups for hovered locations.
 
-Furthermore we want to give a short theoretical outlook for possible enhancements of you applications. You can then explore these on your own.
+Furthermore we want to give a short theoretical outlook for possible enhancements of your applications. You can then explore these on your own.
 
 Let's start with [adding popups](popups.md) for hovered coordinates, shall we?

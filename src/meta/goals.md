@@ -1,6 +1,6 @@
 # Goals
 
-These are the goals that we want to reach with this workshop:
+These are the goals we want to reach with this workshop:
 
 * Learn the basics of GeoExt
   * theoretically

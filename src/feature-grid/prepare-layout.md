@@ -155,9 +155,9 @@ var featurePanel = Ext.create('Ext.grid.Panel', {
 
 ![The prepared ExtJS layout](prepared.png)
 
-* Of course we also want to have vector layer in the map, whose feature we later want in the grid.
+* Of course we also want to have a vector layer in the map, whose features we want in the grid later.
 
-* Please create a new `ol.layer.Vector`, that has a `ol.source.GeoJSON` configured which loads the local data in `src/exercises/data/aimag-centers.json`. Please style the points with red circles. Please also zoom the map a little bit further out; zoom level `4` should be fine.
+* Please create a new `ol.layer.Vector`, that has a `ol.source.GeoJSON` configured and loads the local data in `src/exercises/data/aimag-centers.json`. Please style the points with red circles. Please also zoom the map a little bit further out; zoom level `4` should be fine.
 
 * <button class="section" target="hint2" show="Show hint" hide="Hide hint"></button>
 

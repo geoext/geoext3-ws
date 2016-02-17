@@ -7,7 +7,7 @@ In order to complete this workshop, you will need the following software:
 * A text editor, for example [Atom](https://atom.io/) or some other editor in
   which you feel comfortable.
 * A browser, to read the workshop instructions and open up the tasks you will
-  have to accomplish
+  have to accomplish.
 * [Node.JS](https://nodejs.org/en/), so that you can run the workshop examples.
   Node.js will also install `npm`, which we will use to install workshop
   dependencies and to serve the workshop slides as HTML. If you are on linux,
@@ -18,15 +18,15 @@ In order to complete this workshop, you will need the following software:
 
 * Download the latest workshop-contens from this URL:
   * https://github.com/geoext/geoext3-ws/archive/master.zip
-* Extract the zip-archive into a directory of your choice
+* Extract the zip-archive into a directory of your choice.
 * You should find the following files and directories in the
 `geoext3-ws-master`-folder:
   * `LICENSE.md`
   * `package.json`
   * `README.md`
   * `src/`
-* Install the dependencies of the workshop via `npm install`
-* Here are some example steps for a Linux-system
+* Install the dependencies of the workshop via `npm install`.
+* Here are some example steps for a Linux-system:
   ```bash
   # create a directory gx-ws …
   mkdir -p ~/gx-ws
@@ -38,7 +38,7 @@ In order to complete this workshop, you will need the following software:
   unzip master.zip
   # … change into the extracted folder
   cd geoext3-ws-master
-  # Install depoendencies via npm
+  # Install dependencies via npm
   npm install
   ```
 
@@ -92,4 +92,4 @@ In order to complete this workshop, you will need the following software:
 ## Stopping the workshop
 
 * Simply hit `Ctrl-C` in the terminal wher you started the workshop, e.g.
-  `~/gx-ws/geoext3-ws-master`
+  `~/gx-ws/geoext3-ws-master`.

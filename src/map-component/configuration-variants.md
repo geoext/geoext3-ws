@@ -10,8 +10,8 @@ As you have seen, we have simply created an instance of `ol.Map` and passed it t
 
 Change the following aspects of the OpenLayers map:
 
-* Set a different map center
-* Initially zoom to another region
+* Set a different map center.
+* Initially zoom to another region.
 * Add more layers to the map. Try the layers from these WMS capabilities for example:
   * http://ows.terrestris.de/osm/service?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities
   * http://ows.terrestris.de/osm-gray/service?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities
@@ -24,13 +24,13 @@ Change the following aspects of the OpenLayers map:
 Change the following aspects of the extJS components:
 
 * Use another layout for the viewport. Just remember that you probably need to change two places:
-  * the `layout` config of the viewport
-  * depending on the chosen layout, children (our map-component) may need new properties
-* wrap the `GeoExt.component.Map` in a panel with a title.
+  * The `layout` config of the viewport.
+  * And depending on the chosen layout, children (our map-component) may need new properties.
+* Wrap the `GeoExt.component.Map` in a panel with a title.
 
 ## Configuring aspects of GeoExt
 
 Of course you can also change aspects directly via GeoExt:
 
-* Set the center of the map, but this time with GeoExt
-* Add a layer with GeoExt
+* Set the center of the map, but this time with GeoExt.
+* Add a layer with GeoExt.
