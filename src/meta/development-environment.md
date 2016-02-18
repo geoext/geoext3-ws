@@ -91,5 +91,5 @@ In order to complete this workshop, you will need the following software:
   ```
 ## Stopping the workshop
 
-* Simply hit `Ctrl-C` in the terminal wher you started the workshop, e.g.
+* Simply hit `Ctrl-C` in the terminal where you started the workshop, e.g.
   `~/gx-ws/geoext3-ws-master`.
