@@ -26,7 +26,7 @@ Shall we tackle our first tiny excercise? Ok then, here we go:
 [import](../snippets/template.html)
 * See if your file is available in a browser under the following URL:
   {{ book.exerciseUrl }}/my-exercise.html
-* In the body of the HTML change the content of the first `<h1>`-element to
+* In the body of the HTML change the content of the first <code>&lt;h1&gt;</code>-element to
   read: `GeoExt rocks!`
 * Check if any changes to the HTML file are reflected in your browser. Reload
   the URL  {{ book.exerciseUrl }}/my-exercise.html

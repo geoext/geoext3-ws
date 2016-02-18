@@ -159,7 +159,7 @@ Ext.onReady(function(){
 
 ![Our starting point](../feature-grid/after.png)
 
-* For popups to look right, we need some CSS. Include the following in the `<head>` of the page:
+* For popups to look right, we need some CSS. Include the following in the <code>&lt;head&gt;</code> of the page:
 
 ```html
 <link rel="stylesheet" href="http://geoext.github.io/geoext3/master/resources/css/gx-popup.css" type="text/css">

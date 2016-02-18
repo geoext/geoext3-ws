@@ -37,7 +37,7 @@ The first line in this document is the `doctype` of the HTML. By specifying…
 
 ### Declaration of the character set
 
-In order to tell the browser that we have encoded our file as UTF-8, we add a `<meta>`-tag to the `<head>` of the document:
+In order to tell the browser that we have encoded our file as UTF-8, we add a <code>&lt;meta&gt;</code>-tag to the `<head>` of the document:
 
 ```html
 <head>
@@ -49,7 +49,7 @@ This way we can be relatively sure that all the characters we enter into the doc
 
 ### CSS and JavaScript resources
 
-Also in the `<head>` of the document we load external JavaScript and CSS files, so we can use our needed libraries later.
+Also in the <code>&lt;head&gt;</code> of the document we load external JavaScript and CSS files, so we can use our needed libraries later.
 
 ```html
 <head>
@@ -58,7 +58,7 @@ Also in the `<head>` of the document we load external JavaScript and CSS files, 
 </head>
 ```
 
-For this workshop it will be enough to always include the full builds of the library; and to always load them in the `<head>`. This technique allows us to basically forget about these resources for the course of the workshop. For a production website you would probably load the files in a different manor, and you would rather not load the versions of the libraries which contain everything. The creation of specific versions of the base libraries that only include what your application actually needs, is way beyond the scope of this workshop.
+For this workshop it will be enough to always include the full builds of the library; and to always load them in the <code>&lt;head&gt;</code>. This technique allows us to basically forget about these resources for the course of the workshop. For a production website you would probably load the files in a different manor, and you would rather not load the versions of the libraries which contain everything. The creation of specific versions of the base libraries that only include what your application actually needs, is way beyond the scope of this workshop.
 
 ### `<script>`-tag in the `<body>`
 
@@ -75,7 +75,7 @@ We only include one `<script>`-tag that will contain all the JavaScript that we 
 
 ## JavaScript code for the map
 
-All our code to create the full screen map lives in the `<script>`-tag in the HTML `<body>`.
+All our code to create the full screen map lives in the <code>&lt;script&gt;</code>-tag in the HTML <code>&lt;body&gt;</code>.
 
 Let's go through all the lines in there.
 
@@ -101,7 +101,7 @@ Ext.onReady(function(){
 
 These lines pass an anonymous (e.g. unnamed) function to the method `Ext.onReady`. This method will execute the passed function as soon as the Document is ready, e.g. External resources have loaded and the DOM (Document Object Model) of the page is ready to be manipulated.
 
-Behind the curtains, when we create instances of some Ext classes, they will eventually need to modify the DOM. In order to run into problems when such changes happen to early (remember, all code in the `<script>` tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
+Behind the curtains, when we create instances of some Ext classes, they will eventually need to modify the DOM. In order to run into problems when such changes happen to early (remember, all code in the <code>&lt;script&gt;</code> tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
 
 Let's have a look at the parts inside this function.
 

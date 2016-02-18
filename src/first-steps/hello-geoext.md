@@ -52,7 +52,7 @@ We'll start with the result of the last exercise, which was a basic HTML file th
 
 * We are now going to create an instance of `GeoExt.component.Map` and render it in the window we created in the previous example.
 * In order to do that:
-  * Remove the `html: '…is easy!'` from the `Ext.window.Window` configuration object
+  * Remove the <code>html: &#39;…is easy!&#39;</code> from the `Ext.window.Window` configuration object
   * And add the following lines instead:
     ```javascript
     // in the config object:
