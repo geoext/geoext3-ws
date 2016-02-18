@@ -1,8 +1,8 @@
 {
   "name": "geoext3-ws",
   "version": "0.0.1",
-  "description": "[WIP] Learn how to use GeoExt3 in your ExtJS applications…",
-  "main": "index.js",
+  "description": "Learn how to use GeoExt3 in your ExtJS applications…",
+  "private": true,
   "scripts": {
     "clean": "rimraf src/_book build",
     "start": "mkdirp src/_book && parallelshell \"node scripts/sync-exercises.js\" \"npm run doc:serve\"",
@@ -17,9 +17,6 @@
     "doc:pdf": "npm run check:calibre && gitbook pdf src build/geoext3-ws.pdf",
     "build:html": "npm run clean && npm run doc:build",
     "build:all": "npm run build:html && npm run doc:pdf && npm run doc:epub",
-    "build:covers": "npm run build:cover && npm run build:cover_small",
-    "build:cover": "svgexport src/cover.svg src/cover.jpg 95% 'svg{background: #fff;}'",
-    "build:cover_small": "svgexport src/cover_small.svg src/cover_small.jpg 100% 'svg{background: #fff;}'",
     "archive": "npm run check:zip && npm run build:all && cd build && zip -r geoext3-ws.zip geoext3-ws *.epub *.pdf",
     "postinstall": "gitbook install src"
   },
@@ -40,9 +37,6 @@
     "url": "https://github.com/geoext/geoext3-ws/issues"
   },
   "homepage": "https://github.com/geoext/geoext3-ws#readme",
-  "devDependencies": {
-    "svgexport": "0.2.8"
-  },
   "dependencies": {
     "fs-extra": "0.26.5",
     "gitbook-cli": "1.0.1",
