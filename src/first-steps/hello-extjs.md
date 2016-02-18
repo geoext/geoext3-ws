@@ -21,7 +21,7 @@ Again we'll need to include two resources in a HTML page to be able to use ExtJS
 
 ![The template-HTML with the ExtJS resources included](hello-ext.png)
 
-* In order to see if everything was included successfully, let's instantiate an ExtJS class. Please copy and paste the following into the `<body>` of the test-file:
+* In order to see if everything was included successfully, let's instantiate an ExtJS class. Please copy and paste the following into the <code>&lt;body&gt;</code> of the test-file:
 
 ```html
 <script>

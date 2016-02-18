@@ -205,7 +205,7 @@ var overviewPanel = Ext.create('Ext.panel.Panel', {
 });
 ```
 
-* Instead of assigning the `region: 'west'` to the layer tree panel, we'll create a new `container` with the `vbox`-layout and pass that to the `items` of the `Ext.container.Viewport`:
+* Instead of assigning the <code>region: &#39;west&#39;</code> to the layer tree panel, we'll create a new `container` with the `vbox`-layout and pass that to the `items` of the `Ext.container.Viewport`:
 
 ```js
 var vp = Ext.create('Ext.container.Viewport', {
@@ -234,7 +234,7 @@ var vp = Ext.create('Ext.container.Viewport', {
 
 * Now it is time to use `GeoExt.component.OverviewMap`: Create an instance of this class and read the [related API-docs](http://geoext.github.io/geoext3/master/docs/#!/api/GeoExt.component.OverviewMap).
 
-* Configure the `overviewPanel` with the created overview instead of `html: 'TODO'` (via `items`).
+* Configure the `overviewPanel` with the created overview instead of <code>html: &#39;TODO&#39;</code> (via `items`).
 
 * You may want to have another layer in the overview. How about this WMS?
 

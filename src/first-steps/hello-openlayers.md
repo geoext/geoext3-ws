@@ -11,13 +11,13 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 
 [import](../snippets/template.html)
 
-* Change `ol-example.html` to include both files in the  `<head>`. Use the below templates to include a CSS and a JavaScript file.
+* Change `ol-example.html` to include both files in the <code>&lt;head&gt;</code>. Use the below templates to include a CSS and a JavaScript file.
 
 [import](../snippets/include-js-css.html)
 
 * Verify that {{ book.exerciseUrl }}/ol-example.html loads your file.
 
-* In the  `<body>` of the file, add the following HTML-fragment, which includes a tiny bit of JavaScript:
+* In the <code>&lt;body&gt;</code> of the file, add the following HTML-fragment, which includes a tiny bit of JavaScript:
 
 [import](../snippets/simple-map.html)
 

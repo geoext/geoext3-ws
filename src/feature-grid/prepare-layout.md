@@ -118,7 +118,7 @@ Ext.create('Ext.grid.Panel', {
 });
 ```
 
-* Instead of using a `storeId` and then later `Ext.data.StoreManager.lookup('simpsonsStore')`, we will simply use a variable to be able to reference the store. Since we will put the panel in our border layout, we do not need the `renderTo` and `width` properties. Don't forget to assign the `region: south`. We'll also save the panel in a variable. Your code should look roughly like the following:
+* Instead of using a `storeId` and then later <code>Ext.data.StoreManager.lookup(&#39;simpsonsStore&#39;)</code>, we will simply use a variable to be able to reference the store. Since we will put the panel in our border layout, we do not need the `renderTo` and `width` properties. Don't forget to assign the `region: south`. We'll also save the panel in a variable. Your code should look roughly like the following:
 
 * <button class="section" target="hint1" show="Show hint" hide="Hide hint"></button>
 
