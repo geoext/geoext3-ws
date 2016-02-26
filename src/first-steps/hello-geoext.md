@@ -37,7 +37,7 @@ We'll start with the result of the last exercise, which was a basic HTML file th
 
 ```html
 <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css">
-<script src="./lib/ol/ol.css" type="text/javascript"></script>
+<script src="./lib/ol/ol.js" type="text/javascript"></script>
 ```
 
 * Add the JavaScript for GeoExt: `https://geoext.github.io/geoext3/master/GeoExt.js`
@@ -60,7 +60,6 @@ We'll start with the result of the last exercise, which was a basic HTML file th
     items: [
         Ext.create('GeoExt.component.Map', {
             map: new ol.Map({
-                target: 'map',
                 layers: [
                     new ol.layer.Tile({
                         source: new ol.source.OSM()
