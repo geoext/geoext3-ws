@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Learn how to use GeoExt3 in your ExtJS applications…",
   "private": true,
+  "engines": {
+      "node" : ">=4.0.0"
+  },
   "scripts": {
     "clean": "rimraf src/_book build",
     "start": "mkdirp src/_book && parallelshell \"node scripts/sync-exercises.js\" \"npm run doc:serve\"",
