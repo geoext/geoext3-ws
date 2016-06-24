@@ -9,19 +9,19 @@ The HTML of the page looks as follows:
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Exercise | GeoExt Workshop</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-triton/resources/theme-triton-all.css" type="text/css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js" type="text/javascript"></script>
-        <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css">
-        <script src="./lib/ol/ol.js" type="text/javascript"></script>
-        <script src="https://geoext.github.io/geoext3/master/GeoExt.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <script>
-        </script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercise | GeoExt Workshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-triton/resources/theme-triton-all.css" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>
+    <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css" />
+    <script src="./lib/ol/ol.js"></script>
+    <script src="https://geoext.github.io/geoext3/master/GeoExt.js"></script>
+  </head>
+  <body>
+    <script>
+    </script>
+  </body>
 </html>
 ```
 
@@ -37,11 +37,11 @@ The first line in this document is the `doctype` of the HTML. By specifying…
 
 ### Declaration of the character set
 
-In order to tell the browser that we have encoded our file as UTF-8, we add a <code>&lt;meta&gt;</code>-tag to the `<head>` of the document:
+In order to tell the browser that we have encoded our file as UTF-8, we add a `<meta>`-tag to the `<head>` of the document:
 
 ```html
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8" />
 </head>
 ```
 
@@ -49,16 +49,16 @@ This way we can be relatively sure that all the characters we enter into the doc
 
 ### CSS and JavaScript resources
 
-Also in the <code>&lt;head&gt;</code> of the document we load external JavaScript and CSS files, so we can use our needed libraries later.
+Also in the `<head>` of the document we load external JavaScript and CSS files, so we can use our needed libraries later.
 
 ```html
 <head>
-    <link rel="stylesheet" href="URL-or-relative-path-to-file" type="text/css">
-    <script src="URL-or-relative-path-to-file" type="text/javascript"></script>
+  <link rel="stylesheet" href="URL-or-relative-path-to-file" type="text/css" />
+  <script src="URL-or-relative-path-to-file"></script>
 </head>
 ```
 
-For this workshop it will be enough to always include the full builds of the library; and to always load them in the <code>&lt;head&gt;</code>. This technique allows us to basically forget about these resources for the course of the workshop. For a production website you would probably load the files in a different manor, and you would rather not load the versions of the libraries which contain everything. The creation of specific versions of the base libraries that only include what your application actually needs, is way beyond the scope of this workshop.
+For this workshop it will be enough to always include the full builds of the library; and to always load them in the `<head>`. This technique allows us to basically forget about these resources for the course of the workshop. For a production website you would probably load the files in a different manor, and you would rather not load the versions of the libraries which contain everything. The creation of specific versions of the base libraries that only include what your application actually needs, is way beyond the scope of this workshop.
 
 ### `<script>`-tag in the `<body>`
 
@@ -75,7 +75,7 @@ We only include one `<script>`-tag that will contain all the JavaScript that we 
 
 ## JavaScript code for the map
 
-All our code to create the full screen map lives in the <code>&lt;script&gt;</code>-tag in the HTML <code>&lt;body&gt;</code>.
+All our code to create the full screen map lives in the `<script>`-tag in the HTML `<body>`.
 
 Let's go through all the lines in there.
 
@@ -95,13 +95,13 @@ The next line reads:
 
 ```js
 Ext.onReady(function(){
-    // some other lines we do not care about now
+  // some other lines we do not care about for now
 });
 ```
 
 These lines pass an anonymous (e.g. unnamed) function to the method `Ext.onReady`. This method will execute the passed function as soon as the Document is ready, e.g. External resources have loaded and the DOM (Document Object Model) of the page is ready to be manipulated.
 
-Behind the curtains, when we create instances of some Ext classes, they will eventually need to modify the DOM. In order to run into problems when such changes happen to early (remember, all code in the <code>&lt;script&gt;</code> tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
+Behind the curtains, when we create instances of some Ext classes, they will eventually need to modify the DOM. In order to run into problems when such changes happen to early (remember, all code in the `<script>` tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
 
 Let's have a look at the parts inside this function.
 
@@ -111,15 +111,15 @@ First we want to create an instance of an `ol.Map`:
 
 ```js
 map = new ol.Map({
-    layers: [
-        new ol.layer.Tile({
-            source: new ol.source.OSM()
-        })
-    ],
-    view: new ol.View({
-        center: ol.proj.fromLonLat( [106.92, 47.92] ),
-        zoom: 12
+  layers: [
+    new ol.layer.Tile({
+      source: new ol.source.OSM()
     })
+  ],
+  view: new ol.View({
+    center: ol.proj.fromLonLat( [106.92, 47.92] ),
+    zoom: 12
+  })
 });
 ```
 
@@ -135,7 +135,7 @@ Next we use the method `Ext.create` with two arguments: the name of the class to
 
 ```js
 var mapComponent = Ext.create('GeoExt.component.Map', {
-    map: map
+  map: map
 });
 ```
 
@@ -151,8 +151,8 @@ The final four lines in the block read:
 
 ```js
 var vp = Ext.create('Ext.container.Viewport', {
-    layout: 'fit',
-    items: mapComponent
+  layout: 'fit',
+  items: mapComponent
 });
 ```
 
