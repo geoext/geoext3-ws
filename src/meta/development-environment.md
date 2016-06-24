@@ -8,7 +8,7 @@ In order to complete this workshop, you will need the following software:
   which you feel comfortable.
 * A browser, to read the workshop instructions and open up the tasks you will
   have to accomplish.
-* [Node.JS](https://nodejs.org/en/), so that you can run the workshop examples.
+* [Node.js](https://nodejs.org/en/), so that you can run the workshop examples.
   Node.js will also install `npm`, which we will use to install workshop
   dependencies and to serve the workshop slides as HTML. If you are on linux,
   we have made excellent experiences with [`nvm`](https://github.com/creationix/nvm#node-version-manager-)

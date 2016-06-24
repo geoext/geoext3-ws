@@ -1,14 +1,12 @@
 {
     "title": "Workshop GeoExt3",
-    "description": "[WIP] Learn how to use GeoExt 3 in your ExtJS applications…",
+    "description": "Learn how to use GeoExt 3 in your ExtJS applications…",
     "language": "en",
     "plugins": [
         "edit-link",
         "expandable-chapters",
         "image-captions",
-        "include-codeblock",
-        "richquotes",
-        "sectionx"
+        "richquotes"
     ],
     "variables": {
         "exerciseUrl": "http://localhost:4000/exercises"

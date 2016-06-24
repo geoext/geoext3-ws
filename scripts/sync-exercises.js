@@ -2,7 +2,6 @@ var watch = require('watch');
 var fs = require('fs-extra');
 var net = require('net');
 var path = require('path');
-var process = require('process');
 
 var exerciseDir = "exercises";
 var srcDir = path.join(__dirname, "..", "src");

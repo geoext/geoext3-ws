@@ -9,17 +9,50 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 * See if you find a folder `lib/ol/` inside of the `src/exercise/`-folder. It should contain two files: `ol.js` and `ol.css`
 * Create a new `ol-example.html` from the basic template
 
-[import](../snippets/template.html)
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>This is a basic HTML template</title>
+  </head>
+  <body>
+    <h1>Use this template to create your own HTML files</h1>
+  </body>
+</html>
+```
 
-* Change `ol-example.html` to include both files in the <code>&lt;head&gt;</code>. Use the below templates to include a CSS and a JavaScript file.
+* Change `ol-example.html` to include both files in the `<head>`. Use the below templates to include a CSS and a JavaScript file.
 
-[import](../snippets/include-js-css.html)
+```html
+<!-- include a CSS stylesheet -->
+<link rel="stylesheet" href="path/to/file.css" type="text/css" />
+
+<!-- include an external JavaScript file -->
+<script src="path/to/file.js"></script>
+```
 
 * Verify that {{ book.exerciseUrl }}/ol-example.html loads your file.
 
-* In the <code>&lt;body&gt;</code> of the file, add the following HTML-fragment, which includes a tiny bit of JavaScript:
+* In the `<body>` of the file, add the following HTML-fragment, which includes a tiny bit of JavaScript:
 
-[import](../snippets/simple-map.html)
+```html
+<div id="map" style="height: 600px"></div>
+<script>
+  var map = new ol.Map({
+    target: 'map',
+    layers: [
+      new ol.layer.Tile({
+        source: new ol.source.MapQuest({layer: 'sat'})
+      })
+    ],
+    view: new ol.View({
+      center: ol.proj.fromLonLat([106.92, 47.92]),
+      zoom: 4
+    })
+  });
+</script>
+```
 
 * When you now reload the {{ book.exerciseUrl }}/ol-example.html URL, you should see an OpenLayers map centered on Ulan Bator:
 

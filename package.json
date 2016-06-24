@@ -4,7 +4,7 @@
   "description": "Learn how to use GeoExt3 in your ExtJS applications…",
   "private": true,
   "engines": {
-      "node" : ">=4.0.0"
+    "node": ">=0.10.46"
   },
   "scripts": {
     "clean": "rimraf src/_book build",
@@ -47,7 +47,7 @@
     "parallelshell": "2.0.0",
     "readline": "1.3.0",
     "rimraf": "2.5.2",
-    "watch": "0.18.0",
+    "watch": "0.19.1",
     "which": "1.2.10"
   }
 }

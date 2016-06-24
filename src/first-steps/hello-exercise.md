@@ -23,10 +23,23 @@ Shall we tackle our first tiny excercise? Ok then, here we go:
 
 * Create a `my-exercise.html` HTML-file in the `src/exercise/`-folder, open it
   with your text editor and fill it with the template HTML from below:
-[import](../snippets/template.html)
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>This is a basic HTML template</title>
+  </head>
+  <body>
+    <h1>Use this template to create your own HTML files</h1>
+  </body>
+</html>
+```
+
 * See if your file is available in a browser under the following URL:
   {{ book.exerciseUrl }}/my-exercise.html
-* In the body of the HTML change the content of the first <code>&lt;h1&gt;</code>-element to
+* In the body of the HTML change the content of the first `<h1>`-element to
   read: `GeoExt rocks!`
 * Check if any changes to the HTML file are reflected in your browser. Reload
   the URL  {{ book.exerciseUrl }}/my-exercise.html
