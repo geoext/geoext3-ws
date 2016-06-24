@@ -8,7 +8,7 @@ Homepage: http://openlayers.org
 
 ### API documentation
 
-Use th API docs of OpenLayers to know about available classes and their properties:
+Use the API docs of OpenLayers to know about available classes and their properties:
 
 * http://openlayers.org/en/v3.13.1/apidoc/
 
