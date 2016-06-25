@@ -99,9 +99,9 @@ Ext.onReady(function(){
 });
 ```
 
-These lines pass an anonymous (e.g. unnamed) function to the method `Ext.onReady`. This method will execute the passed function as soon as the Document is ready, e.g. External resources have loaded and the DOM (Document Object Model) of the page is ready to be manipulated.
+These lines pass an anonymous (e.g. unnamed) function to the method `Ext.onReady`. This method will execute the passed function as soon as the Document is ready, e.g. external resources have loaded and the DOM (Document Object Model) of the page is ready to be manipulated.
 
-Behind the curtains, when we create instances of some Ext classes, they will eventually need to modify the DOM. In order to run into problems when such changes happen to early (remember, all code in the `<script>` tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
+Behind the curtains, when we create instances of some Ext classes, they will eventually need to modify the DOM. In order to run into problems when such changes happen too early (remember, all code in the `<script>` tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
 
 Let's have a look at the parts inside this function.
 

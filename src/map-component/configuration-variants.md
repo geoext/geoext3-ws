@@ -21,7 +21,7 @@ Change the following aspects of the OpenLayers map:
 
 ## Configuring aspects of ExtJS
 
-Change the following aspects of the extJS components:
+Change the following aspects of the ExtJS components:
 
 * Use another layout for the viewport. Just remember that you probably need to change two places:
   * The `layout` config of the viewport.

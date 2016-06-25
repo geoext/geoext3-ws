@@ -6,7 +6,7 @@ Since we want to use a tree to eventually control the layers of the map, we'll u
 
 ## Exercises
 
-* Next, we'll switch out the `Ext.panel.Panel` against a dedicated `Ext.tree.Panel`. If we look at the documentation for the tree-panel, you'll see a very basic example, which you please add to the viewport instead of our placeholder.
+* Next, we'll switch out the `Ext.panel.Panel` against a dedicated `Ext.tree.Panel`. If we look at the documentation for the [tree-panel](http://docs.sencha.com/extjs/6.0.0-classic/Ext.tree.Panel.html), you'll see a very basic example, which you please add to the viewport instead of our placeholder.
 
 * The example from the above page looks like this:
 
@@ -43,6 +43,7 @@ Ext.create('Ext.tree.Panel', {
   * The return value of the `Ext.create('Ext.tree.Panel', /**/)` call is currently ignored. You should try to save it in a variable (probably the one from our basic setup `layerTreePanel`).
   * The height of the tree-panel is unnecessary, we want to put the panel in the west region, which has full height by default. Remove the `height`-property.
   * The `renderTo`-configuration of the tree-panel is also fine for the ExtJS standalone example, but bad for our combination setup. In our case, the viewport takes care of where to actually render the tree. Remove the `renderTo`-property.
+  * Don't forget to add the `region`-property to the tree-panel and set it to 'west', so the tree-panel gets rendered properly in the border-layout of the viewport.
 
 * The final result should look like this:
 
