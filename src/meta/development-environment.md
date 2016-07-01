@@ -16,7 +16,7 @@ In order to complete this workshop, you will need the following software:
 
 ## Preparation steps
 
-* Download the latest workshop-contens from this URL:
+* Download the latest workshop-contents from this URL:
   * https://github.com/geoext/geoext3-ws/archive/master.zip
 * Extract the zip-archive into a directory of your choice.
 * You should find the following files and directories in the
