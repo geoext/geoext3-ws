@@ -1,8 +1,46 @@
 # GeoExt3 workshop [![Build Status](https://travis-ci.org/geoext/geoext3-ws.svg?branch=master)](https://travis-ci.org/geoext/geoext3-ws)
 
-Learn how to use GeoExt 3 in your ExtJS applications…
+Learn how to use GeoExt 3 in your ExtJS applications.
+
+## Want to do the workshop?
+
+This assumes that [Node.js](https://nodejs.org/en/) is installed:
+
+* Download the latest workshop-contents from this URL:
+  * https://github.com/geoext/geoext3-ws/archive/master.zip
+* Extract the zip-archive into a directory of your choice.
+* You should find the following files and directories in the
+`geoext3-ws-master`-folder:
+  * `LICENSE.md`
+  * `package.json`
+  * `README.md`
+  * `src/`
+* Install the dependencies of the workshop via `npm install`.
+* Start the workshop server with `npm start`.
+* Open `http://localhost:4000`.
+
+## Example steps for a Linux-system
+
+```bash
+# Create a directory gx-ws …
+mkdir -p ~/gx-ws
+# … go there …
+cd ~/gx-ws
+# … grab the zip-archive …
+wget https://github.com/geoext/geoext3-ws/archive/master.zip
+# … unzip the archive …
+unzip master.zip
+# … change into the extracted folder
+cd geoext3-ws-master
+# … install dependencies via npm
+npm install
+# …tart the workshop server
+npm start
+```
 
 ## Developing instructions
+
+For developing and enhancing the workshop.
 
 ### tl;dr
 
