@@ -14,8 +14,8 @@ We'll start with the result of the last exercise, which was a basic HTML file th
   <head>
     <meta charset="utf-8" />
     <title>This is a basic HTML template</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-triton/resources/theme-triton-all.css" type="text/css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.1/classic/theme-triton/resources/theme-triton-all.css" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.1/ext-all.js"></script>
   </head>
   <body>
     <script>

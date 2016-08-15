@@ -10,7 +10,7 @@ Homepage: http://openlayers.org
 
 Use the API docs of OpenLayers to know about available classes and their properties:
 
-* http://openlayers.org/en/v3.13.1/apidoc/
+* http://openlayers.org/en/v3.17.1/apidoc/
 
 The left side of the API-docs is a list of all objects in OpenLayers. If you click on the name of an OpenLayers class there, you see the API of the object.
 
@@ -20,7 +20,7 @@ In the subpages you can find a list of all properties, methods and events the cl
 
 Many people learn best when they see the parts of a library in action. OpenLayers has a vast amount of published online examples, which mostly focus on one aspect of the library.
 
-* http://openlayers.org/en/v3.13.1/examples/
+* http://openlayers.org/en/v3.17.1/examples/
 
 Browse the examples and learn how to find one that provides the information you need.
 
@@ -38,7 +38,7 @@ Browse the examples and learn how to find one that provides the information you 
 
 The quantity and quality of the ExtJS API documentation is outstanding.
 
-* http://docs.sencha.com/extjs/6.0/6.0.0-classic/
+* http://docs.sencha.com/extjs/6.0.1-classic/
 
 The docs provide a list of all classes on the left and details once you click on any class. In order to understand and make use of ExtJS, it is crucial to fully grasp the documentation.
 
@@ -46,7 +46,7 @@ The docs provide a list of all classes on the left and details once you click on
 
 The examples for the ExtJS framework can be found here:
 
-* http://examples.sencha.com/extjs/6.0.0/examples/
+* http://examples.sencha.com/extjs/6.0.1/examples/
 
 As with the API documentation, you may at first be overwhelmed at the sheer masses of examples. It is nonetheless very useful to click through some of them, as the show how to combine the classes of the framework into small working applications.
 
@@ -54,7 +54,7 @@ As with the API documentation, you may at first be overwhelmed at the sheer mass
 
 * If you want to quickly check some class, you can e.g. use the [Sencha Fiddle website](https://fiddle.sencha.com/#home).
 
-* Specific questions (and answers) can be browsed in the [Sencha Formums](https://www.sencha.com/forum/).
+* Specific questions (and answers) can be browsed in the [Sencha Forums](https://www.sencha.com/forum/).
 
 ## GeoExt
 
