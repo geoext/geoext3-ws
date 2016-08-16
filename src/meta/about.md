@@ -28,8 +28,8 @@ the github editor and you can directly fix what you have noticed.
 During the workshop you will work with the following JavaScript libraries or
 frameworks:
 
-* OpenLayers (v3.13.1): http://openlayers.org/
-* ExtJS (v6.0.0, GPL): https://www.sencha.com/products/extjs/,
+* OpenLayers (v3.17.1): http://openlayers.org/
+* ExtJS (v6.0.1, GPL): https://www.sencha.com/products/extjs/,
   [download](https://www.sencha.com/legal/GPL/)
 * GeoExt3 ([c326b01c pre-v3.0.0](https://github.com/geoext/geoext3/commit/c326b01c20ffcfa453dafe754093753b7af95bc9)): http://geoext.github.io/geoext3/
 

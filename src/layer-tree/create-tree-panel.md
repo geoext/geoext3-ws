@@ -66,7 +66,7 @@ var store = Ext.create('Ext.data.TreeStore', {
   }
 });
 
-var layerTreePanel = Ext.create('Ext.panel.Panel', {
+var layerTreePanel = Ext.create('Ext.tree.Panel', {
   title: 'Layers of the application',
   width: 300,
   region: 'west',

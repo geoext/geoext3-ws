@@ -43,7 +43,7 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
     target: 'map',
     layers: [
       new ol.layer.Tile({
-        source: new ol.source.MapQuest({layer: 'sat'})
+        source: new ol.source.Stamen({layer: 'watercolor'})
       })
     ],
     view: new ol.View({
@@ -56,7 +56,7 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 
 * When you now reload the {{ book.exerciseUrl }}/ol-example.html URL, you should see an OpenLayers map centered on Ulan Bator:
 
-![A very basic OpenLayers maa](hello-ol.png)
+![A very basic OpenLayers map](hello-ol.png)
 
 * To verify we are really looking at Ulan Bator, just change the layers to now consist an OpenStreetMap layer, which e.g. has labels and a country outline. Use the following JavaScript snippet at the appropriate place:
 
