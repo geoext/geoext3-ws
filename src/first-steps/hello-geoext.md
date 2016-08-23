@@ -44,7 +44,7 @@ Ext.onReady(function(){
 
 * Most GeoExt components don't need special CSS. If you use the `Popup`-components, you may want to include the following CSS file: `http://geoext.github.io/geoext3/master/resources/css/gx-popup.css`
 
-* Verify that {{ book.exerciseUrl }}/hello-geoext.html loads in your browser
+* Verify that [{{ book.exerciseUrl }}/hello-geoext.html]({{ book.exerciseUrl }}/hello-geoext.html) loads in your browser
 
 # Adding our first GeoExt component
 

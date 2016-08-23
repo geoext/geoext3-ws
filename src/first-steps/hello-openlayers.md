@@ -32,7 +32,7 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 <script src="path/to/file.js"></script>
 ```
 
-* Verify that {{ book.exerciseUrl }}/ol-example.html loads your file.
+* Verify that [{{ book.exerciseUrl }}/ol-example.html]({{ book.exerciseUrl }}/ol-example.html) loads your file.
 
 * In the `<body>` of the file, add the following HTML-fragment, which includes a tiny bit of JavaScript:
 
@@ -54,7 +54,7 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 </script>
 ```
 
-* When you now reload the {{ book.exerciseUrl }}/ol-example.html URL, you should see an OpenLayers map centered on Ulan Bator:
+* When you now reload the [{{ book.exerciseUrl }}/ol-example.html]({{ book.exerciseUrl }}/ol-example.html) URL, you should see an OpenLayers map centered on Ulan Bator:
 
 ![A very basic OpenLayers map](hello-ol.png)
 

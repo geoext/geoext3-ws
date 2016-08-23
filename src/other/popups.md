@@ -154,7 +154,7 @@ Ext.onReady(function(){
 </html>
 ```
 
-* If you open this file in a browser ({{ book.exerciseUrl }}/map.html), the application should look like in the following image:
+* If you open this file in a browser ([{{ book.exerciseUrl }}/map.html]({{ book.exerciseUrl }}/map.html)), the application should look like in the following image:
 
 ![Our starting point](../feature-grid/after.png)
 

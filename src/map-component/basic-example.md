@@ -57,7 +57,7 @@ We want to have a look at a fully working example first.
 </html>
 ```
 
-* Verify that {{ book.exerciseUrl }}/map.html loads in your browser and looks like the picture below.
+* Verify that [{{ book.exerciseUrl }}/map.html]({{ book.exerciseUrl }}/map.html) loads in your browser and looks like the picture below.
 
 ![A map component in a fullscreen viewport](map.png)
 

@@ -33,7 +33,7 @@ Again we'll need to include two resources in a HTML page to be able to use ExtJS
   <script src="path/to/file.js"></script>
   ```
 
-* Verify that {{ book.exerciseUrl }}/ext-example.html loads your file.
+* Verify that [{{ book.exerciseUrl }}/ext-example.html]({{ book.exerciseUrl }}/ext-example.html) loads your file.
 * Does your basic page look like the one in the following image? Why does the font look so different?
 
 ![The template-HTML with the ExtJS resources included](hello-ext.png)
