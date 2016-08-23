@@ -8,7 +8,7 @@ done it, please continue reading.
 
 ## Q: Why not as Ext.application? Why no MVC?
 
-> Why didn't you create the examples as `Ext.application()`? An why aren't you using the MVC pattern?
+> Why didn't you create the examples as `Ext.application()`? And why aren't you using the MVC pattern?
 
 We recommend the use of `Ext.application` / `Ext.app.Application` and the use of the MVC or MVVM pattern for real-world applications. For this introductory workshop we think this would complicate stuff more than necessary.
 
