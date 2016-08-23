@@ -15,7 +15,7 @@ If you e.g. store a file named `map.html` inside this directory, and you are
 serving the workshop as recommended, than this file can be accessed via the
 following URL:
 
-{{ book.exerciseUrl }}/map.html
+[{{ book.exerciseUrl }}/map.html]({{ book.exerciseUrl }}/map.html)
 
 Shall we tackle our first tiny excercise? Ok then, here we go:
 
@@ -38,11 +38,11 @@ Shall we tackle our first tiny excercise? Ok then, here we go:
 ```
 
 * See if your file is available in a browser under the following URL:
-  {{ book.exerciseUrl }}/my-exercise.html
+  [{{ book.exerciseUrl }}/my-exercise.html]({{ book.exerciseUrl }}/my-exercise.html)
 * In the body of the HTML change the content of the first `<h1>`-element to
   read: `GeoExt rocks!`
 * Check if any changes to the HTML file are reflected in your browser. Reload
-  the URL  {{ book.exerciseUrl }}/my-exercise.html
+  the URL  [{{ book.exerciseUrl }}/my-exercise.html]({{ book.exerciseUrl }}/my-exercise.html)
 
 If everything worked, you should see something like in the following images.
 
@@ -54,7 +54,7 @@ If everything worked, you should see something like in the following images.
 >
 > In case you added more files (e.g.for upcoming tasks) to the
 > `src/exercise/` folder and they are *not* instantly available under the
-> URL {{ book.exerciseUrl }}/filename.html
+> URL [{{ book.exerciseUrl }}/filename.html]({{ book.exerciseUrl }}/filename.html)
 >
 > … then you have to stop and start the fileserving again. See the
 > [notes on starting / stopping](../meta/development-environment.md)
