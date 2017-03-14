@@ -22,8 +22,8 @@ Again we'll need to include two resources in a HTML page to be able to use ExtJS
 ```
 
 * Change `ext-example.html` to include the following two files:
-  * https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.1/classic/theme-triton/resources/theme-triton-all.css
-  * https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.1/ext-all.js
+  * https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-triton/resources/theme-triton-all.css
+  * https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js
 
   ```html
   <!-- include a CSS stylesheet -->
