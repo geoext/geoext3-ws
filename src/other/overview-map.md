@@ -17,7 +17,7 @@ Especially when zoomed in, it can be hard to understand the extent of the mappan
     <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css" />
     <link rel="stylesheet" href="http://geoext.github.io/geoext3/master/resources/css/gx-popup.css" type="text/css" />
     <script src="./lib/ol/ol.js"></script>
-    <script src="https://geoext.github.io/geoext3/master/GeoExt.js"></script>
+    <script src="https://geoext.github.io/geoext3/v3.0.0/GeoExt.js"></script>
     <style>
 .gx-popup p {
   padding: 5px 5px 0 5px;

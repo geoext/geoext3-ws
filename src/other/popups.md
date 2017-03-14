@@ -16,7 +16,7 @@ In this chapter we want to add short informative popups on the map. We will open
     <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
     <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css" />
     <script src="./lib/ol/ol.js"></script>
-    <script src="https://geoext.github.io/geoext3/master/GeoExt.js"></script>
+    <script src="https://geoext.github.io/geoext3/v3.0.0/GeoExt.js"></script>
   </head>
   <body>
     <script>
