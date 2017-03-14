@@ -14,8 +14,8 @@ We'll start with the result of the last exercise, which was a basic HTML file th
   <head>
     <meta charset="utf-8" />
     <title>This is a basic HTML template</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.1/classic/theme-triton/resources/theme-triton-all.css" type="text/css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.1/ext-all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-triton/resources/theme-triton-all.css" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
   </head>
   <body>
     <script>
@@ -40,7 +40,7 @@ Ext.onReady(function(){
 <script src="./lib/ol/ol.js"></script>
 ```
 
-* Add the JavaScript for GeoExt: `https://geoext.github.io/geoext3/master/GeoExt.js`
+* Add the JavaScript for GeoExt: `https://geoext.github.io/geoext3/v3.0.0/GeoExt.js`
 
 * Most GeoExt components don't need special CSS. If you use the `Popup`-components, you may want to include the following CSS file: `http://geoext.github.io/geoext3/master/resources/css/gx-popup.css`
 
