@@ -96,7 +96,7 @@ Ext.onReady(function(){
 }
 ```
 
-* Study the API docs of `ol.Map` to get the appropriate `LayerGroup`: http://openlayers.org/en/v3.17.1/apidoc/ol.Map.html
+* Study the API docs of `ol.Map` to get the appropriate `LayerGroup`: http://openlayers.org/en/v3.20.1/apidoc/ol.Map.html
 
 * If everything works fine, you should see a tree with one (currently unlabeled) leaf. Next to the leaf you find a checkbox, that reflects the overall visibility of the layer.
 

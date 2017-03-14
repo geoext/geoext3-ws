@@ -10,7 +10,7 @@ Homepage: http://openlayers.org
 
 Use the API docs of OpenLayers to know about available classes and their properties:
 
-* http://openlayers.org/en/v3.17.1/apidoc/
+* http://openlayers.org/en/v3.20.1/apidoc/
 
 The left side of the API-docs is a list of all objects in OpenLayers. If you click on the name of an OpenLayers class there, you see the API of the object.
 
@@ -20,7 +20,7 @@ In the subpages you can find a list of all properties, methods and events the cl
 
 Many people learn best when they see the parts of a library in action. OpenLayers has a vast amount of published online examples, which mostly focus on one aspect of the library.
 
-* http://openlayers.org/en/v3.17.1/examples/
+* http://openlayers.org/en/v3.20.1/examples/
 
 Browse the examples and learn how to find one that provides the information you need.
 
@@ -28,9 +28,9 @@ Browse the examples and learn how to find one that provides the information you 
 
 * OpenLayers also has published a workshop at http://openlayers.org/workshop/.
 
-* Common problems that may arise when using OpenLayers 3 are explained in the [Frequently Asked Questions (FAQ)](http://openlayers.org/en/v3.13.1/doc/faq.html).
+* Common problems that may arise when using OpenLayers 3 are explained in the [Frequently Asked Questions (FAQ)](http://openlayers.org/en/v3.20.1/doc/faq.html).
 
-* For specific questions one can ask on [stackoverflow using the tag 'openlayers-3'](http://stackoverflow.com/questions/tagged/openlayers-3).
+* For specific questions one can ask on [stackoverflow using the tag 'openlayers'](http://stackoverflow.com/questions/tagged/openlayers).
 
 ## ExtJS
 
