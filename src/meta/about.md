@@ -2,10 +2,16 @@
 
 ## Authors
 
-This workshop was created by the following individuals:
+This workshop was initially created by the following individuals:
 
-* Marc Jansen
-* Daniel Koch
+* Marc Jansen ([@marcjansen](https://github.com/marcjansen))
+* Daniel Koch ([@dnlkoch](https://github.com/dnlkoch))
+
+For various changes and enhancements we thank the following people:
+
+* Christian Mayer ([@chrismayer](https://github.com/chrismayer))
+* Andreas Watermeyer ([@awaterme](https://github.com/awaterme))
+* Johannes Weskamm ([@weskamm](https://github.com/weskamm))
 
 ## Contribute
 
@@ -16,7 +22,7 @@ of how to improve the workshop, just
 [open an issue](https://github.com/geoext/geoext3-ws/issues) here.
 
 To make contributions extra easy, we have included a button on every page of
-this workshop labeled
+this workshop labelled
 
 <span style="margin-left: 2em;"><i class="fa fa-edit"></i> EDIT…</span>
 
@@ -28,10 +34,9 @@ the github editor and you can directly fix what you have noticed.
 During the workshop you will work with the following JavaScript libraries or
 frameworks:
 
-* OpenLayers (v3.17.1): http://openlayers.org/
-* ExtJS (v6.0.1, GPL): https://www.sencha.com/products/extjs/,
-  [download](https://www.sencha.com/legal/GPL/)
-* GeoExt3 ([c326b01c pre-v3.0.0](https://github.com/geoext/geoext3/commit/c326b01c20ffcfa453dafe754093753b7af95bc9)): http://geoext.github.io/geoext3/
+* OpenLayers ([v3.20.1](https://github.com/openlayers/openlayers/releases/tag/v3.20.1)): http://openlayers.org/
+* ExtJS ([v6.2.0, GPL](https://www.sencha.com/legal/GPL/)): https://www.sencha.com/products/extjs/
+* GeoExt3 ([v3.0.0](https://github.com/geoext/geoext3/releases/tag/v3.0.0)): http://geoext.github.io/geoext3/
 
 ## Copyright
 

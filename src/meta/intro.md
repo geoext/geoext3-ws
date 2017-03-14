@@ -10,6 +10,7 @@ the following parts:
 * The [goals](goals.md) we try to achieve in the workshop
 * How to setup your [development environment](development-environment.md) so
   that you can work on the workshop tasks efficiently
-* Some final [notes](notes.md) (e.g. about the chosen structure)
+* Some final [notes](notes.md) (e.g. about the chosen structure, an optional
+  read)
 
 Let's start with some [general information](about.md) about the workshop.
