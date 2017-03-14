@@ -18,5 +18,5 @@ so you'll grasp the core of the tasks.
 **Still unsure if you can work through this material?**
 
 We strive to make this workshop as understandable as possible, so please try it
-out! If you fail or experience problems, just tell us so: We are really looking
-forward to getting feedback.
+out! If you think you failed or experience problems, just tell us so: We are
+really looking forward to getting feedback.

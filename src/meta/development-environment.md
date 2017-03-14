@@ -11,7 +11,7 @@ In order to complete this workshop, you will need the following software:
 * [Node.js](https://nodejs.org/en/), so that you can run the workshop examples.
   Node.js will also install `npm`, which we will use to install workshop
   dependencies and to serve the workshop slides as HTML. If you are on linux,
-  we have made excellent experiences with [`nvm`](https://github.com/creationix/nvm#node-version-manager-)
+  we have made excellent experiences with [`nvm`](https://github.com/creationix/nvm#node-version-manager---)
   to install various versions of Node.js.
 
 ## Preparation steps
@@ -89,6 +89,7 @@ In order to complete this workshop, you will need the following software:
   You already have a server listening on 35729
   You should stop it and try again.
   ```
+
 ## Stopping the workshop
 
 * Simply hit `Ctrl-C` in the terminal where you started the workshop, e.g.
