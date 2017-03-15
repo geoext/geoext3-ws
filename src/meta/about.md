@@ -47,4 +47,4 @@ The copyright is &copy; GeoExt Contributors.
 The workshop content is published under [CC-BY-SA-4](https://creativecommons.org/licenses/by-sa/4.0/). The full text is available [online](https://github.com/geoext/geoext3-ws/blob/master/LICENSE.md).
 
 GeoExt3 itself is released under the terms of the GPL v3. Please refer to the
-[License-FAQ](https://github.com/geoext/geoext3/blob/master/LICENSE-FAQ.md).
+[License-FAQ](https://github.com/geoext/geoext3/blob/v3.0.0/LICENSE-FAQ.md).

@@ -161,7 +161,7 @@ Ext.onReady(function(){
 * For popups to look right, we need some CSS. Include the following in the `<head>` of the page:
 
 ```html
-<link rel="stylesheet" href="http://geoext.github.io/geoext3/master/resources/css/gx-popup.css" type="text/css" />
+<link rel="stylesheet" href="https://geoext.github.io/geoext3/v3.0.0/resources/css/gx-popup.css" type="text/css" />
 <style>
 .gx-popup p {
   padding: 5px 5px 0 5px;
@@ -176,7 +176,7 @@ Ext.onReady(function(){
 
 * Configure the existing `GeoExt.component.Map` with `pointerRest: true`. Only if this configuration is `true`, the map-component will emit the `pointerrest` & `pointerrestout` events.
 
-* Read the documentation for [`pointerrest`](http://geoext.github.io/geoext3/master/docs/#!/api/GeoExt.component.Map-event-pointerrest) & [`pointerrestout`](http://geoext.github.io/geoext3/master/docs/#!/api/GeoExt.component.Map-event-pointerrestout)
+* Read the documentation for [`pointerrest`](https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.component.Map-event-pointerrest) & [`pointerrestout`](https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.component.Map-event-pointerrestout)
 
 * Register an event-listener on `pointerrest` that logs the hovered coordinate. Use the OpenLayers utility methods `ol.coordinate.toStringHDMS` and `ol.proj.transform` on the `evt.coordinate` to format the coordinate.
 
@@ -196,7 +196,7 @@ mapComponent.on('pointerrest', function(evt) {
 
 * Once you have the above logging of the coordinate in place, we can now create a popup.
 
-* Instantiate the class [`GeoExt.component.Popup`](http://geoext.github.io/geoext3/master/docs/#!/api/GeoExt.component.Popup) and configure it with your map. You should also provide a `width`. Store the popup in an accessible variable; `var popup` is a good choice.
+* Instantiate the class [`GeoExt.component.Popup`](https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.component.Popup) and configure it with your map. You should also provide a `width`. Store the popup in an accessible variable; `var popup` is a good choice.
 
 * Inside of the configured callback on `pointerrest` we now want to update the HTML of the popup (method `setHtml`) and reposition it at the coordinate (method `position`, pass the coordinates in the view projection). Finally, `show` the popup.
 

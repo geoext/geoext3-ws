@@ -28,7 +28,7 @@ Browse the examples and learn how to find one that provides the information you 
 
 * OpenLayers also has published a workshop at http://openlayers.org/workshop/.
 
-* Common problems that may arise when using OpenLayers 3 are explained in the [Frequently Asked Questions (FAQ)](http://openlayers.org/en/v3.20.1/doc/faq.html).
+* Common problems that may arise when using OpenLayers are explained in the [Frequently Asked Questions (FAQ)](http://openlayers.org/en/v3.20.1/doc/faq.html).
 
 * For specific questions one can ask on [stackoverflow using the tag 'openlayers'](http://stackoverflow.com/questions/tagged/openlayers).
 
@@ -38,15 +38,16 @@ Browse the examples and learn how to find one that provides the information you 
 
 The quantity and quality of the ExtJS API documentation is outstanding.
 
-* http://docs.sencha.com/extjs/6.0.1-classic/
+* Classic toolkit: https://docs.sencha.com/extjs/6.2.0/classic/Ext.html
+* Modern toolkit: https://docs.sencha.com/extjs/6.2.0/modern/Ext.html
 
-The docs provide a list of all classes on the left and details once you click on any class. In order to understand and make use of ExtJS, it is crucial to fully grasp the documentation.
+The docs provide a list of all classes on the left and details once you click on any class. In order to understand and make use of ExtJS, it is crucial to fully grasp how to work with the documentation.
 
 ### Examples
 
 The examples for the ExtJS framework can be found here:
 
-* http://examples.sencha.com/extjs/6.0.1/examples/
+* https://examples.sencha.com/extjs/6.2.0/examples/
 
 As with the API documentation, you may at first be overwhelmed at the sheer masses of examples. It is nonetheless very useful to click through some of them, as the show how to combine the classes of the framework into small working applications.
 
@@ -64,13 +65,13 @@ Homepage: https://geoext.github.io/geoext3/
 
 The GeoExt API documentation (generated with the same software as the ExtJS one) can be found here:
 
-* http://geoext.github.io/geoext3/master/docs/
+* https://geoext.github.io/geoext3/v3.0.0/docs/
 
 If you know your way around in The ExtJS documentation, you will easily understand the GeoExt one.
 
 There is also a version of the API of GeoExt, which includes all the classes from the ExtJS framework:
 
-* http://geoext.github.io/geoext3/master/docs-w-ext/
+* https://geoext.github.io/geoext3/v3.0.0/docs-w-ext/
 
 ### Examples
 
