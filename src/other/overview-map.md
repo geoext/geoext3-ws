@@ -147,7 +147,19 @@ Ext.onReady(function(){
     region: 'south',
     title: 'Centers of Mongolian Aimag',
     columns: [
-      {xtype: 'gx_symbolizercolumn', width: 30},
+      {
+        xtype: 'widgetcolumn',
+        width: 40,
+        widget: {
+          xtype: 'gx_renderer'
+        },
+        onWidgetAttach: function(column, gxRenderer, rec) {
+          gxRenderer.update({
+            feature: rec.getFeature(),
+            symbolizers: GeoExt.component.FeatureRenderer.determineStyle(rec)
+          });
+        }
+      },
       {text: 'Name', dataIndex: 'NAME', flex: 3},
       {text: 'Population', dataIndex: 'POP', flex: 1},
       {text: 'AIMAG_ID', dataIndex: 'AIMAG_ID', flex: 1}
