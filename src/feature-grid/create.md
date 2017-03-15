@@ -153,11 +153,28 @@ columns: [
 ]
 ```
 
-* Additionally we can use the `GeoExt.grid.column.Symbolizer` class of GeoExt to include the styling of the feature in the grid. Add the following line to your columns definition:
+* Additionally we can use the `Ext.grid.column.Widget ` class of ExtJS with an
+`GeoExt.component.FeatureRenderer` to include the styling of the feature in the
+grid. Add the following lines to your columns definition:
 
 ```js
-{ xtype: 'gx_symbolizercolumn', width: 30 }
+{
+  xtype: 'widgetcolumn',
+  width: 40,
+  widget: {
+    xtype: 'gx_renderer'
+  },
+  onWidgetAttach: function(column, gxRenderer, rec) {
+      gxRenderer.update({
+        feature: rec.getFeature(),
+        symbolizers: GeoExt.component.FeatureRenderer.determineStyle(rec)
+      });
+  }
+}
 ```
+
+* Note: If you now sort on a column, some rendered features might disappear
+from the grid. This is a known issue, and an easy solution is very welcome.
 
 * When a row is selected in the grid, it is visually highlighted. Wouldn't it be nice if the feature on the map would also have a different style once its associated row is selected?
 
@@ -171,7 +188,19 @@ var featureGrid = Ext.create('Ext.grid.Panel', {
   region: 'south',
   title: 'Centers of Mongolian Aimag',
   columns: [
-    {xtype: 'gx_symbolizercolumn', width: 30},
+    {
+      xtype: 'widgetcolumn',
+      width: 40,
+      widget: {
+        xtype: 'gx_renderer'
+      },
+      onWidgetAttach: function(column, gxRenderer, rec) {
+        gxRenderer.update({
+          feature: rec.getFeature(),
+          symbolizers: GeoExt.component.FeatureRenderer.determineStyle(rec)
+        });
+      }
+    },
     {text: 'Name', dataIndex: 'NAME', flex: 3},
     {text: 'Population', dataIndex: 'POP', flex: 1},
     {text: 'AIMAG_ID', dataIndex: 'AIMAG_ID', flex: 1}
