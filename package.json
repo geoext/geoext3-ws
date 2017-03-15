@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/geoext/geoext3-ws#readme",
   "dependencies": {
-    "fs-extra": "2.0.0",
+    "fs-extra": "2.1.0",
     "gitbook-cli": "2.3.0",
     "mkdirp": "0.5.1",
     "parallelshell": "2.0.0",
