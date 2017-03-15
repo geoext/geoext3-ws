@@ -86,7 +86,7 @@ Ext.onReady(function(){
 </html>
 ```
 
-* Make yourself familiar with the `GeoExt.data.store.LayersTree` class by studying the following API-docs: http://geoext.github.io/geoext3/master/docs/#!/api/GeoExt.data.store.LayersTree
+* Make yourself familiar with the `GeoExt.data.store.LayersTree` class by studying the following API-docs: https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.data.store.LayersTree
 
 * Create an instance of the `GeoExt.data.store.LayersTree` class and pass it the following configuration object:
 
