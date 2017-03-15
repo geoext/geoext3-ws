@@ -6,7 +6,7 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 
 ## Exercises
 
-* See if you find a folder `lib/ol/` inside of the `src/exercise/`-folder. It should contain two files: `ol.js` and `ol.css`
+* See if you find a folder `lib/ol/` inside of the `src/exercises/`-folder. It should contain three files: `ol-debug.js`, `ol.js` and `ol.css`.
 * Create a new `ol-example.html` from the basic template
 
 ```html

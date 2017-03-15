@@ -5,11 +5,11 @@ accomplish. Most of the time you will be asked to edit an HTML or JavaScript-fil
 and see if the result is as intended.
 
 In order to have comparable results, you are advised to save your HTML and any
-additional files inside of the `src/exercise/`-folder. If you followed the
+additional files inside of the `src/exercises/`-folder. If you followed the
 instructions for setting up the [development environment](../meta/development-environment.md),
 this folder will be located at:
 
-`~/gx-ws/geoext3-ws-master/src/exercise`.
+`~/gx-ws/geoext3-ws-master/src/exercises`.
 
 If you e.g. store a file named `map.html` inside this directory, and you are
 serving the workshop as recommended, than this file can be accessed via the
@@ -17,11 +17,11 @@ following URL:
 
 [{{ book.exerciseUrl }}/map.html]({{ book.exerciseUrl }}/map.html)
 
-Shall we tackle our first tiny excercise? Ok then, here we go:
+Shall we tackle our first tiny exercise? OK then, here we go:
 
 ## Exercises
 
-* Create a `my-exercise.html` HTML-file in the `src/exercise/`-folder, open it
+* Create a `my-exercise.html` HTML-file in the `src/exercises/`-folder, open it
   with your text editor and fill it with the template HTML from below:
 
 ```html
@@ -53,7 +53,7 @@ If everything worked, you should see something like in the following images.
 > **info** **Please note:**
 >
 > In case you added more files (e.g.for upcoming tasks) to the
-> `src/exercise/` folder and they are *not* instantly available under the
+> `src/exercises/` folder and they are *not* instantly available under the
 > URL [{{ book.exerciseUrl }}/filename.html]({{ book.exerciseUrl }}/filename.html)
 >
 > … then you have to stop and start the fileserving again. See the
