@@ -19,6 +19,23 @@ This assumes that [Node.js](https://nodejs.org/en/) is installed:
 * Start the workshop server with `npm start`.
 * Open `http://localhost:4000`.
 
+## Preparation steps for OSGeo-Live v10.0
+
+If you do not have Node.js installed (e.g. if you work on a fresh [OSGeo-Live v10.09(https://live.osgeo.org/)), you will need to install it. Here are some example commands you need to issue in a terminal to get everything the workshop depends upon.
+
+First, let's install [`nvm` (Node Version Manager)](https://github.com/creationix/nvm) which we use to manage installations of Node.js.:
+
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+
+Next, please close and reopen the terminal, so that the `nvm` script is available.
+
+Afterwards issue the following in the terminal to install the lates v6.x Node.js and a matching `npm` utility:
+
+    nvm install v6
+
+You can now follow the instructions above.
+
+
 ## Example steps for a Linux-system
 
 ```bash
