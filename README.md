@@ -39,10 +39,8 @@ You can now follow the instructions above.
 ## Example steps for a Linux-system
 
 ```bash
-# Create a directory gx-ws …
-mkdir -p ~/gx-ws
-# … go there …
-cd ~/gx-ws
+# Create a directory gx-ws and go there …
+mkdir -p ~/gx-ws && cd ~/gx-ws
 # … grab the zip-archive …
 wget https://github.com/geoext/geoext3-ws/archive/master.zip
 # … unzip the archive …
@@ -51,7 +49,7 @@ unzip master.zip
 cd geoext3-ws-master
 # … install dependencies via npm
 npm install
-# …tart the workshop server
+# … start the workshop server
 npm start
 ```
 
