@@ -3,3 +3,5 @@ build
 
 src/_book
 src/node_modules
+
+package-lock.json
