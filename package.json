@@ -1,6 +1,6 @@
 {
   "name": "geoext3-ws",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Learn how to use GeoExt3 in your ExtJS applications…",
   "private": true,
   "engines": {
