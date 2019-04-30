@@ -1,18 +1,17 @@
 # Notes
 
-In this section we want to keep certain notes about this workshop. It is **not a
-necessary requirement** to read this section if you just start with GeoExt.
+This section contains various notes about this workshop. It is **not a
+necessary requirement** to read this section if you are just starting with GeoExt.
 
-In case you have questions about *why* we have structured the workshop as we have
-done it, please continue reading.
+If you have questions about *why* we structured the workshop the way we have, please continue reading.
 
 ## Q: Why not as Ext.application? Why no MVC?
 
 > Why didn't you create the examples as `Ext.application()`? And why aren't you using the MVC / MVVM pattern?
 
-We recommend the use of `Ext.application` / `Ext.app.Application` and the use of the MVC or MVVM pattern for real-world applications. For this introductory workshop we think this would complicate stuff more than necessary.
+We recommend the use of `Ext.application` / `Ext.app.Application` and the use of the MVC or MVVM pattern for real-world applications. For this introductory workshop we think this would make things more complicated than necessary.
 
-## Q: Why not with help of `Sencha Cmd`?
+## Q: Why no `Sencha Cmd`?
 
 > Why don't you use the `Sencha Cmd` for the workshop?
 

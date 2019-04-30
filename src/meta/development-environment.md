@@ -10,8 +10,8 @@ In order to complete this workshop, you will need the following software:
   have to accomplish.
 * [Node.js](https://nodejs.org/en/), so that you can run the workshop examples.
   Node.js will also install `npm`, which we will use to install workshop
-  dependencies and to serve the workshop slides as HTML. If you are on linux,
-  we have made excellent experiences with [`nvm`](https://github.com/creationix/nvm#node-version-manager---)
+  dependencies and to serve the workshop slides as HTML. If you are on Linux,
+  we have had excellent experience with [`nvm`](https://github.com/creationix/nvm#node-version-manager---)
   to install various versions of Node.js.
 
 ## Preparation steps
@@ -49,7 +49,7 @@ In order to complete this workshop, you will need the following software:
   ```bash
   npm start
   ```
-* This should give you an output like below:
+* This should give you an output similar to below:
   ```bash
   Live reload server started on port: 35729
   Press CTRL+C to quit ...
@@ -69,7 +69,7 @@ In order to complete this workshop, you will need the following software:
   Starting server ...
   Serving book on http://localhost:4000
   ```
-* If instead you see some error like below, the workshop is likely already
+* If instead you see an error similar to below, the workshop is likely already
   running on your system or some other application is blocking the ports
   `35729` and `4000`:
   ```bash
