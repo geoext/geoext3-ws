@@ -53,6 +53,40 @@ npm install
 npm start
 ```
 
+### Example steps for a Windows system
+
+The steps below can be run on a Windows machine. They have been tested on Windows 10 with PowerShell v5.1, 
+and Visual Studio 2017. 
+
+```powershell
+# create a C:\gx-ws directory
+$wsFolder = "C:\gx-ws"
+New-Item -Path $wsFolder -ItemType Directory
+# download the zip-archive
+$client = New-Object System.Net.WebClient
+$client.DownloadFile("https://github.com/geoext/geoext3-ws/archive/master.zip", "$wsFolder/master.zip")
+# unzip the archive
+Expand-Archive -Path $wsFolder/master.zip -DestinationPath $wsFolder
+# install the chocolatey package manager
+# if you have Visual Studio 2010+ and the Nugetextension installed you can run the
+# commands below, otherwise see how to install at https://www.chocolatey.org/install
+Install-Package chocolatey -Force
+# now install nodejs with chocolatey
+choco install nodejs -y
+# change into the extracted folder
+cd "$wsFolder/geoext3-ws-master"
+# install dependencies via npm
+npm install
+# start the workshop server
+npm start
+```
+
+If gitbook fails to install try running the following separately:
+
+```powershell
+npm install gitbook-cli -g
+```
+
 ## Developing instructions
 
 For developing and enhancing the workshop.
