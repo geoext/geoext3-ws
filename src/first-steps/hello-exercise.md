@@ -1,8 +1,8 @@
 # Hello exercise
 
 Throughout this workshop, you will encounter various tasks, that you should
-accomplish. Most of the time you will be asked to edit an HTML or JavaScript-file
-and see if the result is as intended.
+complete. Most of the time you will be asked to edit an HTML or JavaScript-file
+and see if you get the intended result. 
 
 In order to have comparable results, you are advised to save your HTML and any
 additional files inside of the `src/exercises/`-folder. If you followed the
@@ -11,8 +11,8 @@ this folder will be located at:
 
 `~/gx-ws/geoext3-ws-master/src/exercises`.
 
-If you e.g. store a file named `map.html` inside this directory, and you are
-serving the workshop as recommended, than this file can be accessed via the
+For example if you store a file named `map.html` inside this directory, and you are
+serving the workshop as recommended, then this file can be accessed via the
 following URL:
 
 [{{ book.exerciseUrl }}/map.html]({{ book.exerciseUrl }}/map.html)

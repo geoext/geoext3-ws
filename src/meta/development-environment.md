@@ -6,8 +6,7 @@ In order to complete this workshop, you will need the following software:
 
 * A text editor, for example [Atom](https://atom.io/) or some other editor in
   which you feel comfortable.
-* A browser, to read the workshop instructions and open up the tasks you will
-  have to accomplish.
+* A browser, to read the workshop instructions and open up the tasks you will accomplish.
 * [Node.js](https://nodejs.org/en/), so that you can run the workshop examples.
   Node.js will also install `npm`, which we will use to install workshop
   dependencies and to serve the workshop slides as HTML. If you are on Linux,

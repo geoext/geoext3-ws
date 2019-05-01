@@ -6,7 +6,7 @@ We'll start with the result of the last exercise, which was a basic HTML file th
 
 ## Exercises
 
-* Copy the following HTML into a file `hello-geoext.html` in the `exercises`-directory:
+* Copy the following HTML into a file `hello-geoext.html` in the `exercises` directory:
 
 ```html
 <!DOCTYPE html>

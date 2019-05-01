@@ -173,17 +173,17 @@ grid. Add the following lines to your columns definition:
 }
 ```
 
-* Note: If you now sort on a column, some rendered features might disappear
-from the grid. This is a known issue, and an easy solution is very welcome.
+* Note: If you sort on a column, some rendered features might disappear
+from the grid. This is a known issue, and a solution to this is very welcome.
 
-* When a row is selected in the grid, it is visually highlighted. Wouldn't it be nice if the feature on the map would also have a different style once its associated row is selected?
+* When a row is selected in the grid, it is visually highlighted. Wouldn't it be nice if the feature on the map also has a different style once its associated row is selected?
 
 * Assign a `selectionchange` listener on the grid and ensure that the correct feature is highlighted in the map. Hint: Create a new style and in the callback reset the style for every feature and reassign the new style to the to the currently selected feature. Use `console.log(arguments)` to see what you have been passed and how you can get the feature from the passed arguments.
 
 * **Bonus:** Once the feature has a different style on the map, it would be nice if we could see that style in the grid, right? Change the `selectionchange` listener to also update the grid once the style of the feature has changed.
 
 ```js
-var featureGrid = Ext.create('Ext.grid.Panel', {
+var featurePanel = Ext.create('Ext.grid.Panel', {
   store: featureStore,
   region: 'south',
   title: 'Centers of Mongolian Aimag',
@@ -223,6 +223,6 @@ var featureGrid = Ext.create('Ext.grid.Panel', {
 });
 ```
 
-* Your application should now roughly look like depicted below:
+* Your application should now look similar to the image below:
 
 ![The application with a feature grid](after.png)

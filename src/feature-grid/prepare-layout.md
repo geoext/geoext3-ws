@@ -1,6 +1,6 @@
 # Prepare layout
 
-We want to add a grid panel to our basic map application now.
+Now we want to add a grid panel to our basic map application. 
 
 ## Exercises
 
@@ -118,7 +118,7 @@ Ext.create('Ext.grid.Panel', {
 });
 ```
 
-* Instead of using a `storeId` and then later <code>Ext.data.StoreManager.lookup(&#39;simpsonsStore&#39;)</code>, we will simply use a variable to be able to reference the store. Since we will put the panel in our border layout, we do not need the `renderTo` and `width` properties. Don't forget to assign the `region: south`. We'll also save the panel in a variable. Your code should look roughly like the following:
+* Instead of using a `storeId` and then later <code>Ext.data.StoreManager.lookup(&#39;simpsonsStore&#39;)</code>, we will simply use a variable to be able to reference the store. As we will put the panel in our border layout, we do not need the `renderTo` and `width` properties. Don't forget to assign the `region: south`. We'll also save the panel in a variable. Your code should look roughly like the following:
 
 ```js
 var featureStore = Ext.create('Ext.data.Store', {
@@ -144,11 +144,11 @@ var featurePanel = Ext.create('Ext.grid.Panel', {
 });
 ```
 
-* Once we have added the `featurePanel` to the viewport, our application should look like in the following image:
+* Once we have added the `featurePanel` to the viewport, our application should look similar to the following image:
 
 ![The prepared ExtJS layout](prepared.png)
 
-* Of course we also want to have a vector layer in the map, whose features we want in the grid later.
+* Of course we also want to have a vector layer in the map, whose features we want to display in the grid later.
 
 * Please create a new `ol.layer.Vector`, that has a `ol.source.GeoJSON` configured and loads the local data in `src/exercises/data/aimag-centers.json`. Please style the points with red circles. Please also zoom the map a little bit further out; zoom level `4` should be fine.
 
@@ -175,6 +175,6 @@ var vectorLayer = new ol.layer.Vector({
 });
 ```
 
-* Our application should now look like in the following image:
+* Our application should now look like the following image:
 
-![Our map now also shows the 'Aimag'](with-vector.png)
+![Our map now also shows the 'Aimag' layer](with-vector.png)

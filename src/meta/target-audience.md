@@ -3,12 +3,12 @@
 This workshop is targeted at developers that want to try out the GeoExt library.
 
 GeoExt is based on OpenLayers and ExtJS, so a bit of background in these
-JavaScript libraries / frameworks doesn't hurt. However it is not necessary to
+JavaScript libraries / frameworks doesn't hurt. It is not however necessary to
 have a deep understanding of the base libraries. All examples or tasks
-usually highlight the key aspects that make everything work together.
+typically highlight the key aspects that make everything work together.
 
 Some basic familiarity with JavaScript is assumed, but again, we will not dive
-too deep into the language, so basically any interested person will be able
+too deep into the language, so any interested person will be able
 to understand what is going on.
 
 In order to accomplish everything in the workshop, some OGC services (such as

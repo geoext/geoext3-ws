@@ -22,7 +22,8 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 </html>
 ```
 
-* Change `ol-example.html` to include both files in the `<head>`. Use the below templates to include a CSS and a JavaScript file.
+* Change `ol-example.html` to include two files in the `<head>`. Use the below templates to include a CSS and a JavaScript file. The paths
+  should be relative to the HTML page e.g. "./lib/ol/ol.css"
 
 ```html
 <!-- include a CSS stylesheet -->
@@ -34,7 +35,7 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 
 * Verify that [{{ book.exerciseUrl }}/ol-example.html]({{ book.exerciseUrl }}/ol-example.html) loads your file.
 
-* In the `<body>` of the file, add the following HTML-fragment, which includes a tiny bit of JavaScript:
+* In the `<body>` of the file, add the following HTML-fragment, which includes a tiny piece of JavaScript:
 
 ```html
 <div id="map" style="height: 600px"></div>
@@ -54,11 +55,11 @@ Let's see how we can include OpenLayers in our page so that we can start to use 
 </script>
 ```
 
-* When you now reload the [{{ book.exerciseUrl }}/ol-example.html]({{ book.exerciseUrl }}/ol-example.html) URL, you should see an OpenLayers map centered on Ulan Bator:
+* Now when you reload the [{{ book.exerciseUrl }}/ol-example.html]({{ book.exerciseUrl }}/ol-example.html) URL, you should see an OpenLayers map centered on Ulan Bator:
 
 ![A very basic OpenLayers map](hello-ol.png)
 
-* To verify we are really looking at Ulan Bator, just change the layers to now consist an OpenStreetMap layer, which e.g. has labels and a country outline. Use the following JavaScript snippet at the appropriate place:
+* To verify we are really looking at Ulan Bator, just change the layers to consist of an OpenStreetMap layer, which e.g. has labels and a country outline. Use the following JavaScript snippet at the appropriate place:
 
 ```js
 new ol.layer.Tile({
