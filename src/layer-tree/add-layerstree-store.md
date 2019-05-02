@@ -86,7 +86,7 @@ Ext.onReady(function(){
 </html>
 ```
 
-* Make yourself familiar with the `GeoExt.data.store.LayersTree` class by studying the following API-docs: https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.data.store.LayersTree
+* Make yourself familiar with the `GeoExt.data.store.LayersTree` class by studying the following API-docs: https://geoext.github.io/geoext3/v3.1.0/docs/#!/api/GeoExt.data.store.LayersTree
 
 * Create an instance of the `GeoExt.data.store.LayersTree` class and pass it the following configuration object:
 
@@ -96,7 +96,7 @@ Ext.onReady(function(){
 }
 ```
 
-* Study the API docs of `ol.Map` to get the appropriate `LayerGroup`: http://openlayers.org/en/v3.20.1/apidoc/ol.Map.html
+* Study the API docs of `ol.Map` to get the appropriate `LayerGroup`: https://openlayers.org/en/v4.6.5/apidoc/ol.Map.html
 
 * If everything works fine, you should see a tree with one (currently unlabeled) leaf. Next to the leaf you find a checkbox, that reflects the overall visibility of the layer.
 

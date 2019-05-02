@@ -131,7 +131,7 @@ Ext.onReady(function(){
 </html>
 ```
 
-* Instead of a generic `Ext.data.Store`, use a `GeoExt.data.store.Features`. Look up the API documentation on https://geoext.github.io/geoext3/v3.0.0/docs for further details.
+* Instead of a generic `Ext.data.Store`, use a `GeoExt.data.store.Features`. Look up the API documentation on https://geoext.github.io/geoext3/v3.1.0/docs for further details.
 
 * Make sure you reference your vector layer and the map to work on when configuring the store.
 

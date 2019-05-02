@@ -15,7 +15,7 @@ Especially when zoomed in, it can be hard to understand the extent of the mappan
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-triton/resources/theme-triton-all.css" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
     <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css" />
-    <link rel="stylesheet" href="https://geoext.github.io/geoext3/v3.0.0/resources/css/gx-popup.css" type="text/css" />
+    <link rel="stylesheet" href="https://geoext.github.io/geoext3/v3.1.0/resources/css/gx-popup.css" type="text/css" />
     <script src="./lib/ol/ol.js"></script>
     <script src="https://geoext.github.io/geoext3/v3.1.0/GeoExt.js"></script>
     <style>
@@ -243,7 +243,7 @@ var vp = Ext.create('Ext.container.Viewport', {
 
 ![The prepared layout](overview-prepared.png)
 
-* Now it is time to use `GeoExt.component.OverviewMap`: Create an instance of this class and read the [related API-docs](https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.component.OverviewMap).
+* Now it is time to use `GeoExt.component.OverviewMap`: Create an instance of this class and read the [related API-docs](https://geoext.github.io/geoext3/v3.1.0/docs/#!/api/GeoExt.component.OverviewMap).
 
 * Configure the `overviewPanel` with the created overview instead of <code>html: &#39;TODO&#39;</code> (via `items`).
 
