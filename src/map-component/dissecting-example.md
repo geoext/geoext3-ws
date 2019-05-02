@@ -33,7 +33,7 @@ The first line in this document is the `doctype` of the HTML. By specifying…
 <!DOCTYPE html>
 ```
 
-…we declare that the HTML file shall be handled as an [HTML5 document](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5). We recommend the usage of this doctype to force browsers into fixed rules of rendering the page. This eventually also reduces inconsistencies of the behaviour of the page in various browsers.
+…we declare that the HTML file will be handled as an [HTML5 document](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5). We recommend the usage of this doctype to force browsers into fixed rules of rendering the page. This also reduces inconsistencies in the behaviour of the page in various browsers.
 
 ### Declaration of the character set
 
@@ -45,11 +45,11 @@ In order to tell the browser that we have encoded our file as UTF-8, we add a `<
 </head>
 ```
 
-This way we can be relatively sure that all the characters we enter into the document (e.g. German umlauts like `ä`, `ö` or `ü`; or `Улаанбаатар`) are correctly displayed when viewing the site.
+This way we can be relatively sure that all the characters we enter into the document (e.g. German umlauts like `ä`, `ö` or `ü`; or `Улаанбаатар`) are displayed correctly when viewing the site.
 
 ### CSS and JavaScript resources
 
-Also in the `<head>` of the document we load external JavaScript and CSS files, so we can use our needed libraries later.
+Also in the `<head>` of the document we load external JavaScript and CSS files, so we can use our required libraries later.
 
 ```html
 <head>
@@ -58,7 +58,7 @@ Also in the `<head>` of the document we load external JavaScript and CSS files, 
 </head>
 ```
 
-For this workshop it will be enough to always include the full builds of the library; and to always load them in the `<head>`. This technique allows us to basically forget about these resources for the course of the workshop. For a production website you would probably load the files in a different manor, and you would rather not load the versions of the libraries which contain everything. The creation of specific versions of the base libraries that only include what your application actually needs, is way beyond the scope of this workshop.
+For this workshop it is enough to always include the full builds of the library; and to always load them in the `<head>`. This technique allows us to forget about these resources for the course of the workshop. For a production website you would probably load the files in a different manner, and you would not load versions of the libraries which contain everything. The creation of specific versions of the base libraries that only include what your application actually needs, is way beyond the scope of this workshop.
 
 ### `<script>`-tag in the `<body>`
 
@@ -101,7 +101,7 @@ Ext.onReady(function(){
 
 These lines pass an anonymous (e.g. unnamed) function to the method `Ext.onReady`. This method will execute the passed function as soon as the Document is ready, e.g. external resources have loaded and the DOM (Document Object Model) of the page is ready to be manipulated.
 
-Behind the curtains, when we create instances of some Ext classes, they will eventually need to modify the DOM. In order to run into problems when such changes happen too early (remember, all code in the `<script>` tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
+Behind the curtains, when we create instances of some Ext classes, they will eventually need to modify the DOM. In order to avoid running into problems when such changes happen too early (remember, all code in the `<script>` tag is executed as soon as it is being read), we wrap the real code to actually create ExtJS components into a function. We then simply tell ExtJS to delay the real work to a later time, when everything is ready.
 
 Let's have a look at the parts inside this function.
 
@@ -123,7 +123,7 @@ map = new ol.Map({
 });
 ```
 
-These lines create an OpenLayers map and configure it with a view that is centered on Ulan Bator and that has one layer showing pre-rendered tiles from the [OpenStreetMap project](http://www.openstreetmap.org/).
+These lines create an OpenLayers map and configure it with a view that is centered on Ulan Bator and has one layer showing pre-rendered tiles from the [OpenStreetMap project](http://www.openstreetmap.org/).
 
 You should already be slightly familiar with OpenLayers and can basically use any map that works without GeoExt.
 
@@ -164,9 +164,9 @@ Again we use `Ext.create` to build an instance of a class, this time of the `Ext
 
 ([source](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.container.Viewport))
 
-This viewport will be as big as the browser viewport. All it's children (configured via the `items`-key) will be layed out according to the [`fit`-layout](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.layout.container.Fit). This layout ensures that the child component (in our case the `mapComponent`) will be as big as the viewport itself.
+This viewport will be as big as the browser viewport. All it's children (configured via the `items`-key) will be laid out according to the [`fit`-layout](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.layout.container.Fit). This layout ensures that the child component (in our case the `mapComponent`) will be as big as the viewport itself.
 
-Try to resize your browser window and see that the viewport (and the containing map component) always fill out the full area of the browser window.
+Try to resize your browser window and notice that the viewport (and the containing map component) always fill out the full area of the browser window.
 
 ## Next steps
 

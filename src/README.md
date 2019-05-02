@@ -5,11 +5,11 @@
 Welcome to the GeoExt3 workshop, in which you'll learn how to use GeoExt3 in
 your ExtJS applications.
 
-This workshop is composed out of several modules, which usually are done in
+This workshop is composed out of several modules, which are usually completed in
 order.
 
 * Before diving into programming, the [metainformation](meta/intro.md)
-  chapter has a lot of information about this workshop, the intended audience
+  chapter contains lots of information about this workshop, the intended audience
   and how to best create solutions for the workshop.
 * Afterwards we'll work through the [first steps](first-steps/intro.md) chapter,
   in which you learn about Openlayers, ExtJS and GeoExt3.

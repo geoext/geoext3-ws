@@ -17,7 +17,7 @@ For various changes and enhancements we thank the following people:
 
 The workshop repository can be found at https://github.com/geoext/geoext3-ws.
 
-We look forward to external contributors. If you found an issue or have an idea
+We welcome external contributors. If you find an issue or have an idea
 of how to improve the workshop, just
 [open an issue](https://github.com/geoext/geoext3-ws/issues) here.
 

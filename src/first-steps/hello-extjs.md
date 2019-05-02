@@ -2,7 +2,7 @@
 
 Before we can learn how to use GeoExt, we need to see if we can use ExtJS in our page.
 
-Again we'll need to include two resources in a HTML page to be able to use ExtJS: And again it is a CSS and a JavaScript file.
+Again we'll need to include two resources in an HTML page to be able to use ExtJS: Again these are a CSS and a JavaScript file.
 
 ## Exercises
 
@@ -11,27 +11,28 @@ Again we'll need to include two resources in a HTML page to be able to use ExtJS
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8" />
     <title>This is a basic HTML template</title>
-  </head>
-  <body>
+</head>
+<body>
     <h1>Use this template to create your own HTML files</h1>
-  </body>
+</body>
 </html>
 ```
 
-* Change `ext-example.html` to include the following two files:
+* Change `ext-example.html` to include the following two files in the `<head>`. Note these files are not stored locally, but will be loaded
+  remotely from a URL:
   * https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-triton/resources/theme-triton-all.css
   * https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js
 
-  ```html
-  <!-- include a CSS stylesheet -->
-  <link rel="stylesheet" href="path/to/file.css" type="text/css" />
+```html
+<!-- include a CSS stylesheet -->
+<link rel="stylesheet" href="path/to/file.css" type="text/css" />
 
-  <!-- include an external JavaScript file -->
-  <script src="path/to/file.js"></script>
-  ```
+<!-- include an external JavaScript file -->
+<script src="path/to/file.js"></script>
+```
 
 * Verify that [{{ book.exerciseUrl }}/ext-example.html]({{ book.exerciseUrl }}/ext-example.html) loads your file.
 * Does your basic page look like the one in the following image? Why does the font look so different?

@@ -19,9 +19,9 @@ This assumes that [Node.js](https://nodejs.org/en/) is installed:
 * Start the workshop server with `npm start`.
 * Open `http://localhost:4000`.
 
-## Preparation steps for OSGeo-Live v10.0
+## Preparation steps for OSGeo-Live
 
-If you do not have Node.js installed (e.g. if you work on a fresh [OSGeo-Live v10.0](https://live.osgeo.org/)), you will need to install it. Here are some example commands you need to issue in a terminal to get everything the workshop depends upon.
+If you do not have Node.js installed (e.g. if you work on a fresh [OSGeo-Live](https://live.osgeo.org/)), you will need to install it. Here are some example commands you need to issue in a terminal to get everything the workshop depends upon.
 
 First, let's install [`nvm` (Node Version Manager)](https://github.com/creationix/nvm) which we use to manage installations of Node.js.:
 
@@ -51,6 +51,40 @@ cd geoext3-ws-master
 npm install
 # … start the workshop server
 npm start
+```
+
+### Example steps for a Windows system
+
+The steps below can be run on a Windows machine. They have been tested on Windows 10 with PowerShell v5.1, 
+and Visual Studio 2017. 
+
+```powershell
+# create a C:\gx-ws directory
+$wsFolder = "C:\gx-ws"
+New-Item -Path $wsFolder -ItemType Directory
+# download the zip-archive
+$client = New-Object System.Net.WebClient
+$client.DownloadFile("https://github.com/geoext/geoext3-ws/archive/master.zip", "$wsFolder/master.zip")
+# unzip the archive
+Expand-Archive -Path $wsFolder/master.zip -DestinationPath $wsFolder
+# install the chocolatey package manager
+# if you have Visual Studio 2010+ and the Nugetextension installed you can run the
+# commands below, otherwise see how to install at https://www.chocolatey.org/install
+Install-Package chocolatey -Force
+# now install nodejs with chocolatey
+choco install nodejs -y
+# change into the extracted folder
+cd "$wsFolder/geoext3-ws-master"
+# install dependencies via npm
+npm install
+# start the workshop server
+npm start
+```
+
+If gitbook fails to install try running the following separately:
+
+```powershell
+npm install gitbook-cli -g
 ```
 
 ## Developing instructions

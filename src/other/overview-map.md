@@ -4,7 +4,7 @@ Especially when zoomed in, it can be hard to understand the extent of the mappan
 
 ## Exercises
 
-* We'll start again with the code of `map.html` from the previous sections. It's already some lines long:
+* We'll start again with the code of `map.html` from the previous sections. It's already many lines long:
 
 ```html
 <!DOCTYPE html>
@@ -198,7 +198,7 @@ Ext.onReady(function(){
 </html>
 ```
 
-* If you open this file in a browser ([{{ book.exerciseUrl }}/map.html]({{ book.exerciseUrl }}/map.html)), the application should look like in the following image, but you should also be able to see popups when hovering over a map location:
+* If you open this file in a browser ([{{ book.exerciseUrl }}/map.html]({{ book.exerciseUrl }}/map.html)), the application should look like the following image, and you should also be able to see popups when hovering over a map location:
 
 ![Our starting point](../feature-grid/after.png)
 

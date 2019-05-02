@@ -4,7 +4,7 @@ The previous chapter started from the following template, which we now want to r
 
 ## Exercises
 
-* Please create a file `map.html` in the `src/erxercises` directory and paste the following:
+* Please create a file `map.html` in the `src/exercises` directory and paste the following:
 
 ```html
 <!DOCTYPE html>
