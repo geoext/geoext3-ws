@@ -111,7 +111,7 @@ url: http://ows.terrestris.de/osm/service
 layers: OSM-WMS
 ```
 
-* Read the documentation for the Ext class [`Ext.tree.plugin.TreeViewDragDrop`](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.tree.plugin.TreeViewDragDrop). What happens if you add this plugin to the tree?
+* Read the documentation for the Ext class [`Ext.tree.plugin.TreeViewDragDrop`](https://docs.sencha.com/extjs/6.2.0/classic/Ext.tree.plugin.TreeViewDragDrop.html). What happens if you add this plugin to the tree?
 
 * Your application should now e.g. look like this:
 

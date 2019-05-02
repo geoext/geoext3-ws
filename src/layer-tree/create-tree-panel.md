@@ -6,7 +6,7 @@ Since we want to use a tree to control the layers of the map, we'll use an  `Ext
 
 ## Exercises
 
-* Next, we'll switch out the `Ext.panel.Panel` against a dedicated `Ext.tree.Panel`. If we look at the documentation for the [tree-panel](http://docs.sencha.com/extjs/6.0.0-classic/Ext.tree.Panel.html), you'll see a very basic example, which you should add to the viewport instead of our placeholder.
+* Next, we'll switch out the `Ext.panel.Panel` against a dedicated `Ext.tree.Panel`. If we look at the documentation for the [tree-panel](https://docs.sencha.com/extjs/6.2.0/classic/Ext.grid.Panel.html), you'll see a very basic example, which you should add to the viewport instead of our placeholder.
 
 * The example from the above page looks like this:
 

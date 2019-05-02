@@ -90,7 +90,7 @@ Ext.onReady(function(){
 
 ![Our starting point](before.png)
 
-* We want to have a grid in the south, so let's start with the basic example from the [ExtJS Grid documentation](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.grid.Panel):
+* We want to have a grid in the south, so let's start with the basic example from the [ExtJS Grid documentation](https://docs.sencha.com/extjs/6.2.0/classic/Ext.grid.Panel.html):
 
 ```js
 Ext.create('Ext.data.Store', {
