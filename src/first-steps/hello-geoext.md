@@ -40,7 +40,7 @@ Ext.onReady(function(){
 <script src="./lib/ol/ol.js"></script>
 ```
 
-* Add the JavaScript for GeoExt: `https://geoext.github.io/geoext3/v3.0.0/GeoExt.js`
+* Add the JavaScript for GeoExt: `https://geoext.github.io/geoext3/v3.1.0/GeoExt.js`
 
 * Most GeoExt components don't need special CSS. If you use the `Popup`-components, you may want to include the following CSS file: `https://geoext.github.io/geoext3/v3.0.0/resources/css/gx-popup.css`
 
