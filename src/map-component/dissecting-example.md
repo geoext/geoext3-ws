@@ -166,7 +166,7 @@ Again we use `Ext.create` to build an instance of a class, this time of the `Ext
 
 This viewport will be as big as the browser viewport. All it's children (configured via the `items`-key) will be laid out according to the [`fit`-layout](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.layout.container.Fit). This layout ensures that the child component (in our case the `mapComponent`) will be as big as the viewport itself.
 
-Try to resize your browser window and notice that the viewport (and the containing map component) always fill out the full area of the browser window.
+Try to resize your browser window and notice that the viewport (and the containing map component) always fills out the full area of the browser window.
 
 ## Next steps
 
