@@ -34,9 +34,9 @@ the github editor and you can directly fix what you have noticed.
 During the workshop you will work with the following JavaScript libraries or
 frameworks:
 
-* OpenLayers ([v3.20.1](https://github.com/openlayers/openlayers/releases/tag/v3.20.1)): http://openlayers.org/
+* OpenLayers ([4.6.5](https://github.com/openlayers/openlayers/releases/tag/v4.6.5)): http://openlayers.org/
 * ExtJS ([v6.2.0, GPL](https://www.sencha.com/legal/GPL/)): https://www.sencha.com/products/extjs/
-* GeoExt3 ([v3.0.0](https://github.com/geoext/geoext3/releases/tag/v3.0.0)): http://geoext.github.io/geoext3/
+* GeoExt3 ([v3.1.0](https://github.com/geoext/geoext3/releases/tag/v3.1.0)): http://geoext.github.io/geoext3/
 
 ## Copyright
 

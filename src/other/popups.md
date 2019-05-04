@@ -16,7 +16,7 @@ In this chapter we want to add short informative popups on the map. We will open
     <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
     <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css" />
     <script src="./lib/ol/ol.js"></script>
-    <script src="https://geoext.github.io/geoext3/v3.0.0/GeoExt.js"></script>
+    <script src="https://geoext.github.io/geoext3/v3.1.0/GeoExt.js"></script>
   </head>
   <body>
     <script>
@@ -173,7 +173,7 @@ Ext.onReady(function(){
 * For popups to look right, we need some CSS. Include the following in the `<head>` of the page:
 
 ```html
-<link rel="stylesheet" href="https://geoext.github.io/geoext3/v3.0.0/resources/css/gx-popup.css" type="text/css" />
+<link rel="stylesheet" href="https://geoext.github.io/geoext3/v3.1.0/resources/css/gx-popup.css" type="text/css" />
 <style>
 .gx-popup p {
   padding: 5px 5px 0 5px;
@@ -188,7 +188,7 @@ Ext.onReady(function(){
 
 * Configure the existing `GeoExt.component.Map` with `pointerRest: true`. Only if this configuration is `true` will the map-component fire the `pointerrest` and `pointerrestout` events.
 
-* Read the documentation for [`pointerrest`](https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.component.Map-event-pointerrest) & [`pointerrestout`](https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.component.Map-event-pointerrestout)
+* Read the documentation for [`pointerrest`](https://geoext.github.io/geoext3/v3.1.0/docs/#!/api/GeoExt.component.Map-event-pointerrest) & [`pointerrestout`](https://geoext.github.io/geoext3/v3.1.0/docs/#!/api/GeoExt.component.Map-event-pointerrestout)
 
 * Register an event-listener on `pointerrest` that logs the hovered coordinate. Use the OpenLayers utility methods `ol.coordinate.toStringHDMS` and `ol.proj.transform` on the `evt.coordinate` to format the coordinate.
 
@@ -208,7 +208,7 @@ mapComponent.on('pointerrest', function(evt) {
 
 * Once you have the above logging of the coordinate in place, we can now create a popup.
 
-* Instantiate the class [`GeoExt.component.Popup`](https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.component.Popup) and configure it with your map. You should also provide a `width`. Store the popup in an accessible variable; `var popup` is a good choice.
+* Instantiate the class [`GeoExt.component.Popup`](https://geoext.github.io/geoext3/v3.1.0/docs/#!/api/GeoExt.component.Popup) and configure it with your map. You should also provide a `width`. Store the popup in an accessible variable; `var popup` is a good choice.
 
 * Inside the configured callback on `pointerrest` we now want to update the HTML of the popup (method `setHtml`) and reposition it at the coordinate (method `position`, pass the coordinates in the view projection), and finally, `show` the popup.
 

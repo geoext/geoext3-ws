@@ -16,7 +16,7 @@ The HTML of the page looks as follows:
     <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
     <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css" />
     <script src="./lib/ol/ol.js"></script>
-    <script src="https://geoext.github.io/geoext3/v3.0.0/GeoExt.js"></script>
+    <script src="https://geoext.github.io/geoext3/v3.1.0/GeoExt.js"></script>
   </head>
   <body>
     <script>
@@ -162,9 +162,9 @@ Again we use `Ext.create` to build an instance of a class, this time of the `Ext
 >
 > The Viewport renders itself to the document body, and automatically sizes itself to the size of the browser viewport and manages window resizing. There may only be one Viewport created in a page.
 
-([source](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.container.Viewport))
+([source](https://docs.sencha.com/extjs/6.2.0/classic/Ext.container.Viewport.html))
 
-This viewport will be as big as the browser viewport. All it's children (configured via the `items`-key) will be laid out according to the [`fit`-layout](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.layout.container.Fit). This layout ensures that the child component (in our case the `mapComponent`) will be as big as the viewport itself.
+This viewport will be as big as the browser viewport. All it's children (configured via the `items`-key) will be laid out according to the [`fit`-layout](https://docs.sencha.com/extjs/6.2.0/classic/Ext.layout.container.Fit.html). This layout ensures that the child component (in our case the `mapComponent`) will be as big as the viewport itself.
 
 Try to resize your browser window and notice that the viewport (and the containing map component) always fills out the full area of the browser window.
 

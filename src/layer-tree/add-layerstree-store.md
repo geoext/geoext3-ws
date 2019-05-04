@@ -19,7 +19,7 @@ In order to do this, we need to change the store that is used for the tree. Inst
     <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
     <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css" />
     <script src="./lib/ol/ol.js"></script>
-    <script src="https://geoext.github.io/geoext3/v3.0.0/GeoExt.js"></script>
+    <script src="https://geoext.github.io/geoext3/v3.1.0/GeoExt.js"></script>
   </head>
   <body>
     <script>
@@ -86,7 +86,7 @@ Ext.onReady(function(){
 </html>
 ```
 
-* Make yourself familiar with the `GeoExt.data.store.LayersTree` class by studying the following API-docs: https://geoext.github.io/geoext3/v3.0.0/docs/#!/api/GeoExt.data.store.LayersTree
+* Make yourself familiar with the `GeoExt.data.store.LayersTree` class by studying the following API-docs: https://geoext.github.io/geoext3/v3.1.0/docs/#!/api/GeoExt.data.store.LayersTree
 
 * Create an instance of the `GeoExt.data.store.LayersTree` class and pass it the following configuration object:
 
@@ -96,7 +96,7 @@ Ext.onReady(function(){
 }
 ```
 
-* Study the API docs of `ol.Map` to get the appropriate `LayerGroup`: http://openlayers.org/en/v3.20.1/apidoc/ol.Map.html
+* Study the API docs of `ol.Map` to get the appropriate `LayerGroup`: https://openlayers.org/en/v4.6.5/apidoc/ol.Map.html
 
 * If everything works fine, you should see a tree with one (currently unlabeled) leaf. Next to the leaf you find a checkbox, that reflects the overall visibility of the layer.
 
@@ -111,7 +111,7 @@ url: http://ows.terrestris.de/osm/service
 layers: OSM-WMS
 ```
 
-* Read the documentation for the Ext class [`Ext.tree.plugin.TreeViewDragDrop`](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.tree.plugin.TreeViewDragDrop). What happens if you add this plugin to the tree?
+* Read the documentation for the Ext class [`Ext.tree.plugin.TreeViewDragDrop`](https://docs.sencha.com/extjs/6.2.0/classic/Ext.tree.plugin.TreeViewDragDrop.html). What happens if you add this plugin to the tree?
 
 * Your application should now e.g. look like this:
 

@@ -16,7 +16,7 @@ Now it's time to change the grid to no longer show static data from [The Simpson
     <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
     <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css" />
     <script src="./lib/ol/ol.js"></script>
-    <script src="https://geoext.github.io/geoext3/v3.0.0/GeoExt.js"></script>
+    <script src="https://geoext.github.io/geoext3/v3.1.0/GeoExt.js"></script>
   </head>
   <body>
     <script>
@@ -131,7 +131,7 @@ Ext.onReady(function(){
 </html>
 ```
 
-* Instead of a generic `Ext.data.Store`, use a `GeoExt.data.store.Features`. Look up the API documentation on https://geoext.github.io/geoext3/v3.0.0/docs for further details.
+* Instead of a generic `Ext.data.Store`, use a `GeoExt.data.store.Features`. Look up the API documentation on https://geoext.github.io/geoext3/v3.1.0/docs for further details.
 
 * Make sure you reference your vector layer and the map to work on when configuring the store.
 

@@ -16,7 +16,7 @@ Now we want to add a grid panel to our basic map application.
     <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
     <link rel="stylesheet" href="./lib/ol/ol.css" type="text/css" />
     <script src="./lib/ol/ol.js"></script>
-    <script src="https://geoext.github.io/geoext3/v3.0.0/GeoExt.js"></script>
+    <script src="https://geoext.github.io/geoext3/v3.1.0/GeoExt.js"></script>
   </head>
   <body>
     <script>
@@ -90,7 +90,7 @@ Ext.onReady(function(){
 
 ![Our starting point](before.png)
 
-* We want to have a grid in the south, so let's start with the basic example from the [ExtJS Grid documentation](http://docs.sencha.com/extjs/6.0/6.0.0-classic/#!/api/Ext.grid.Panel):
+* We want to have a grid in the south, so let's start with the basic example from the [ExtJS Grid documentation](https://docs.sencha.com/extjs/6.2.0/classic/Ext.grid.Panel.html):
 
 ```js
 Ext.create('Ext.data.Store', {
